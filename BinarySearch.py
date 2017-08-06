@@ -15,4 +15,5 @@ class BinarySearch:
 
 test = [1,2,3,4,5]
 binarySearch = BinarySearch()
+
 print binarySearch.search(test, 3)
