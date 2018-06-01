@@ -6,3 +6,11 @@ var missingNumber = function(nums) {
     });
     return rightSum - sum;
 };
+
+var missingNumber = function(nums) {
+    var xor = 0;
+    nums.forEach((item, index)=>{
+        xor = xor ^ item ^ index;
+    });
+    return xor ^ nums.length;
+};
