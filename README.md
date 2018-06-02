@@ -8,3 +8,4 @@
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算
 7 [Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转
 28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 
+26 [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | 
