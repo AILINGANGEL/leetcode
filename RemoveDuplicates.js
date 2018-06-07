@@ -26,3 +26,18 @@ var removeDuplicates = function(nums) {
     }
     return nums.length;
 };
+
+//双指针解法
+var removeDuplicates = function(nums) {
+    var n = nums.length;
+    if (n < 2) return n;
+    var i = 0, j = 1;
+    while(j<n) {
+        if (nums[j] != nums[i]) {
+            i++;
+            nums[i] = nums[j];
+        }
+        j++;
+    }
+    return i + 1;
+};
