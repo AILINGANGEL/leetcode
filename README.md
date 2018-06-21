@@ -13,3 +13,4 @@
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
 189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
 1[两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用Object来降低时间复杂度
+217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object
