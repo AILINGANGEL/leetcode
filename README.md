@@ -18,3 +18,4 @@
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子
+283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法
