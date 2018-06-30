@@ -5,6 +5,10 @@
 92 Reverse Linked List 2 | 链表反转2, 注意Pos的值
 215 Kth Largest Element in an Array    | 利用partition思想
 88 Merge Sorted Array | 从后往前塞入数据 
+
+### 数组
+题号           | 解题思路 
+------------- | ------------- |
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算
 7 [Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正
 28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 
@@ -19,3 +23,10 @@
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子
 283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法
+
+
+### 字符串
+
+题号           | 解题思路 
+------------- | ------------- |
+344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法
