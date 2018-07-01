@@ -10,7 +10,6 @@
 题号           | 解题思路 
 ------------- | ------------- |
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算
-7 [Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正
 28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 
 26 [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | 双指针解法
 122 [Best Time to Buy and Sell Stock 2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |
@@ -30,3 +29,5 @@
 题号           | 解题思路 
 ------------- | ------------- |
 344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法
+387 [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/description/) | 
+7 [反转整数](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正
