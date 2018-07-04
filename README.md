@@ -25,8 +25,10 @@
 283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法
 
 
+
 ### 字符串
 
-题号           | 解题思路 
-------------- | ------------- |
-344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法
+题号           | 解题思路 |  解题思路
+------------- | ------------- | -------------
+344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法 | easy
+242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | easy
