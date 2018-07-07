@@ -1,9 +1,35 @@
-var isPalindrome = function(x) {
-    if (x < 0) {
-        return false;
-    }
-    if (x < 10) {
+//我的解法
+var isValidCharactor = function(c) {
+    return /[A-Za-z0-9]/.test(c); //只考虑字母和数字
+}
+
+var isPalindrome = function(s) {
+    if (s.length > 1) {
+        var i = 0;
+        var j = s.length - 1;
+        while (i < j) {
+            if (!isValidCharactor(s[i])) {
+                i++;
+                continue;
+            }
+            if (!isValidCharactor(s[j])) {
+                j--;
+                continue
+            }
+            if (s[i].toLowerCase() !== s[j].toLowerCase()) { //不区分大小写
+                return false;
+            }
+            i++;
+            j--;
+        }
         return true;
     }
-    return x.toString().split('').reverse().join('') == x.toString();
+    return true;
+};
+
+//leetcode解法
+var isPalindrome = function(s) {
+    var nomalizedS = s.replace(/[^A-Za-z0-9]/g, "").split('').reverse().join('');
+    var s = s.replace(/[^A-Za-z0-9]/g, "")
+    return s.toLowerCase() === nomalizedS.toLowerCase();
 };
