@@ -35,3 +35,4 @@
 7 [反转整数](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正 | easy
 242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | |easy
 125 [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/description/) |两种方法：1.双指针法 2.字符串反转之后再判断| easy
+28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
