@@ -37,3 +37,4 @@
 125 [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/description/) |两种方法：1.双指针法 2.字符串反转之后再判断| easy
 8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium
 28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
+14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
