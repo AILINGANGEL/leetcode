@@ -38,3 +38,4 @@
 8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium
 28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
+38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
