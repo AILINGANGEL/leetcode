@@ -26,6 +26,7 @@
 
 
 
+
 ### 字符串
 
 题号           | 解题思路 |  难度
@@ -38,3 +39,9 @@
 8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium
 28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
+
+
+##排序和查找
+题号           | 解题思路 |  难度
+------------- | ------------- | -------------
+88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy
