@@ -39,6 +39,14 @@
 8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium
 28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
+38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
+
+
+### 链表
+题号           | 解题思路 |  难度
+------------- | ------------- | -------------
+237[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/) |因为无法访问这个节点的上一个节点，所以用当前节点的下一个节点来替换当前节点的内容，然后删除下一个节点| easy
+19[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/)||medium
 
 
 ##排序和查找
