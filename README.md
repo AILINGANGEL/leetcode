@@ -47,7 +47,7 @@
 ------------- | ------------- | -------------
 237[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/) |因为无法访问这个节点的上一个节点，所以用当前节点的下一个节点来替换当前节点的内容，然后删除下一个节点| easy
 19[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/)||medium
-206[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) || easy
+206[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) |注意这个题的递归解法| easy
 
 
 ##排序和查找
