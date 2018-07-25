@@ -51,6 +51,7 @@
 26 [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/) || easy
 27 [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)|1.遍历借助数组|easy
 707 [设计链表](https://leetcode-cn.com/problems/design-linked-list/description/)|| easy
+141 [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/)|双指针(快指针+慢指针)|easy
 
 
 ##排序和查找
