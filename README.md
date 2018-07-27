@@ -58,3 +58,9 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
 88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy
+
+
+### 二叉树
+题号           | 解题思路 |  难度
+------------- | ------------- | -------------
+104 [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) |递归| easy
