@@ -52,6 +52,7 @@
 27 [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)|1.遍历借助数组|easy
 707 [设计链表](https://leetcode-cn.com/problems/design-linked-list/description/)|| easy
 141 [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/)|双指针(快指针+慢指针)|easy
+160 [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)|1.暴力法 2.hashset(java, js没有这种数据结构) 3.到达链表结尾的时候交换开始的位置再继续(excellent solution)|easy
 
 
 ##排序和查找
@@ -64,3 +65,4 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
 104 [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) |递归| easy
+111 [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/submissions/1) |树的广度遍历| easy
