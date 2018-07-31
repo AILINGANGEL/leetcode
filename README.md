@@ -56,7 +56,7 @@
 203 [删除链表中的节点](https://leetcode-cn.com/problems/remove-linked-list-elements/description/)|1.一次while循环|easy
 
 
-##排序和查找
+###排序和查找
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
 88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy
