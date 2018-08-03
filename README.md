@@ -23,6 +23,7 @@
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 | 中等
 283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
+35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy
 
 
 
