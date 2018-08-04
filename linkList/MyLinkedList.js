@@ -18,7 +18,6 @@ MyLinkedList.prototype.get = function(index) {
     var i = 0;
     var node = this.head;
     while (i !== index) {
-        console.log(node.val)
         node = node.next;
         i++;
     }
@@ -115,13 +114,3 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
  * obj.addAtIndex(index,val)
  * obj.deleteAtIndex(index)
  */
-var obj = new MyLinkedList();
-var param_1 = obj.get(0)
-obj.addAtIndex(1, 2)
-var param_2 = obj.get(0)
-var param_3 = obj.get(1)
-console.log(obj);
-obj.addAtIndex(0, 1)
-console.log(obj);
-var param_5 = obj.get(0)
-var param_5 = obj.get(1)
