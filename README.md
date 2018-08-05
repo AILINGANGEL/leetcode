@@ -57,6 +57,7 @@
 203 [删除链表中的节点](https://leetcode-cn.com/problems/remove-linked-list-elements/description/)|1.一次while循环|easy
 328 [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/description/)||medium
 2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)||easy
+61 [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/)||medium
 
 
 
