@@ -42,8 +42,7 @@
 28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
 38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
-
-
+67 [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | |easy
 ### 链表
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
