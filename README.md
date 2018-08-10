@@ -25,6 +25,7 @@
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy
+561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
 
 
 
