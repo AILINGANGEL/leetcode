@@ -10,7 +10,7 @@
 题号           | 解题思路  | 难度
 ------------- | ------------- |  ------------- |
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算
-28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 
+28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy 
 26 [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | 双指针解法
 122 [Best Time to Buy and Sell Stock 2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |xxx |
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
