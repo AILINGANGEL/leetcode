@@ -27,7 +27,7 @@
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy
 561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
 167 [两数之和2-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/) || easy
-
+485 [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|| easy
 
 
 ### 字符串
