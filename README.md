@@ -1,11 +1,3 @@
-题号           | 解题思路 
-------------- | ------------- |
-367 valid perfect sqrt  | 利用二分思想
-206 Reverse Linked List | 链表反转,记录下一个节点
-92 Reverse Linked List 2 | 链表反转2, 注意Pos的值
-215 Kth Largest Element in an Array    | 利用partition思想
-88 Merge Sorted Array | 从后往前塞入数据 
-
 ### 数组
 题号           | 解题思路  | 难度
 ------------- | ------------- |  ------------- |
@@ -41,7 +33,10 @@
 38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
 67 [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | |easy
 
+
+
 ###双指针
+
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
 209[长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/) | | medium
@@ -52,7 +47,10 @@
 28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy 
 
 
+
+
 ### 链表
+
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
 237[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/) |因为无法访问这个节点的上一个节点，所以用当前节点的下一个节点来替换当前节点的内容，然后删除下一个节点| easy
@@ -71,13 +69,18 @@
 
 
 
+
 ###排序和查找
+
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
 88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy
 
 
+
+
 ### 二叉树
+
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
 104 [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) |递归| easy
