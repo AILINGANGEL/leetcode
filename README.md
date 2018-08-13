@@ -10,7 +10,6 @@
 题号           | 解题思路  | 难度
 ------------- | ------------- |  ------------- |
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算
-28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy 
 26 [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | 双指针解法
 122 [Best Time to Buy and Sell Stock 2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |xxx |
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
@@ -25,16 +24,13 @@
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy
-561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
-167 [两数之和2-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/) || easy
-485 [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|两种解法,第二种双指针方法| easy
+
 
 
 ### 字符串
 
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
-344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法 | easy
 387 [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/description/) | |easy
 7 [反转整数](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正 | easy
 242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | |easy
@@ -44,6 +40,18 @@
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
 38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
 67 [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | |easy
+
+###双指针
+题号           | 解题思路 |  难度
+------------- | ------------- | -------------
+209[长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/) | | medium
+485 [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|两种解法,第二种双指针方法| easy
+344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法 | easy
+561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
+167 [两数之和2-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/) || easy
+28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy 
+
+
 ### 链表
 题号           | 解题思路 |  难度
 ------------- | ------------- | -------------
