@@ -43,3 +43,28 @@ var moveZeroes = function(nums) {
         }
     }
 };
+
+
+//方法4
+
+var moveZeroes = function(nums) {
+    let i = 0;
+    let j = 0;
+    while (i < nums.length) {
+        if (nums[i] !== 0) {
+            i++;
+            continue;
+        } else {
+            j = i + 1;
+            while (j < nums.length && nums[j] === 0) {
+                j++;
+            }
+            if (j === nums.length) {
+                break;
+            }
+            nums[i] = nums[j];
+            nums[j] = 0;
+            i++;
+        }
+    }
+}
