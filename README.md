@@ -16,7 +16,6 @@
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy
-151 [反转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/description/)|1.js一行代码|medium
 
 
 
@@ -33,6 +32,8 @@
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
 38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
 67 [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | |easy
+151 [反转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/description/)|1.js一行代码|medium
+557 [反转字符串中的单词3](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/description/)|js一行代码|easy
 
 
 
