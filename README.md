@@ -68,6 +68,7 @@
 2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)||easy
 61 [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/)||medium
 747 [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/) ||easy
+83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy
 
 
 
