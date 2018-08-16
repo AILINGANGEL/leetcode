@@ -34,6 +34,7 @@
 67 [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | |easy
 151 [反转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/description/)|1.js一行代码|medium
 557 [反转字符串中的单词3](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/description/)|js一行代码|easy
+191 [位1的个数](https://leetcode-cn.com/submissions/detail/5648976/)||easy
 
 
 
