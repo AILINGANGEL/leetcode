@@ -83,6 +83,11 @@
 88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy
 
 
+### 栈和队列
+
+题号           | 解题思路 |  难度
+------------- | ------------- | ------------- | 
+622 [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/description/)||medium
 
 
 ### 二叉树
