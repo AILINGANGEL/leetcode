@@ -39,6 +39,7 @@
 191 [位1的个数](https://leetcode-cn.com/submissions/detail/5648976/)||easy
 709 [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/description/)||easy
 657 [判断路线成圈](https://leetcode-cn.com/problems/judge-route-circle/description/)||easy
+771 [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/description/)||easy
 
 
 
