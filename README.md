@@ -105,3 +105,5 @@
 101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy
 
 100 [相同的树](https://leetcode-cn.com/problems/same-tree/description/) || easy
+
+102 [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)||easy
