@@ -107,3 +107,4 @@
 102 [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|1.递归解法 2.循环遍历解法|easy
 98 [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/)|中序遍历(递归 and 循环遍历)|medium
 94 [二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/)|1.递归 2.循环遍历| medium
+700 [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/description/)|1.递归 2.循环遍历| easy
