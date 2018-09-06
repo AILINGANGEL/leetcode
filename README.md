@@ -109,3 +109,4 @@
 94 [二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/)|1.递归 2.循环遍历| medium
 700 [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/description/)|1.递归 2.循环遍历| easy
 144 [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)|1.递归 2.循环遍历|medium
+145 [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)|1.递归 2.循环遍历|hard
