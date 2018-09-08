@@ -1,3 +1,4 @@
+// 循环遍历
 var insertIntoBST = function(root, val) {
     let newNode = {
         val,
@@ -25,9 +26,21 @@ var insertIntoBST = function(root, val) {
         }
 
     }
-
     return root;
 };
+
+// 递归
+var insertIntoBST = function(root, val) {
+    if (root === null) {
+        return { val: val, right: null, left: null };
+    } else if (root.val > val) {
+        root.left = insertIntoBST(root.left, val);
+    } else if (root.val < val) {
+        root.right = insertIntoBST(root.right, val);
+    }
+    return root;
+};
+
 
 var test = {
     val: 4,
