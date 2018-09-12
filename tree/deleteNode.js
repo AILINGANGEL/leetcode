@@ -47,17 +47,13 @@
 // }
 
 var deleteNode = function(root, key) {
-    console.log('------')
-    console.log(root.val);
     if (root === null) {
         return null;
     } else if (root.val > key) {
-        console.log('abc')
         root.left = deleteNode(root.left, key);
     } else if (root.val < key) {
         root.right = deleteNode(root.right, key);
     } else {
-        console.log('def');
         if (root.left === null) {
             return root.right;
         } else if (root.right === null) {
