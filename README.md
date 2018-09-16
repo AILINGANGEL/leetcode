@@ -116,3 +116,4 @@
 872 [叶子相似树](https://leetcode-cn.com/problems/leaf-similar-trees/description/)|递归|easy
 226 [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/)|递归|easy
 703[数据流中第k大个元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|!!!!!!!!!!!!!!(复习)构造一个只包含k个元素的最小堆，那么堆顶就是要求的第k大个元素.|easy
+563 [二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/description/)|递归|easy
