@@ -119,3 +119,4 @@
 563 [二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/description/)|递归|easy
 257 [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/description/)|递归|easy
 572 [另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/description/)|数的遍历|easy
+852 [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/description/)||easy
