@@ -19,7 +19,6 @@ var findTilt = function(root) {
 
 var helper = function(root) {
     if (root === null) return 0;
-    if (root.left === null && root.right === null) return root.val;
     return helper(root.left) + helper(root.right) + root.val;
 }
 
