@@ -42,6 +42,7 @@
 657 [判断路线成圈](https://leetcode-cn.com/problems/judge-route-circle/description/)||easy
 771 [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/description/)||easy
 415 [字符串相加](https://leetcode-cn.com/problems/add-strings/description/)||easy
+500 [键盘行](https://leetcode-cn.com/problems/keyboard-row/description/)||easy
 
 
 
