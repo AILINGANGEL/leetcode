@@ -128,3 +128,4 @@
 ------------- | ------------- | ------------- |
 162 [寻找峰值]()|1.遍历一 2.二分查找（循环）|medium
 852 [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/description/)||easy
+704 [二分查找](https://leetcode-cn.com/problems/binary-search/description/)|1.循环遍历 2.递归|easy
