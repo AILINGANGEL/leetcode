@@ -43,6 +43,7 @@
 771 [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/description/)||easy
 415 [字符串相加](https://leetcode-cn.com/problems/add-strings/description/)||easy
 500 [键盘行](https://leetcode-cn.com/problems/keyboard-row/description/)||easy
+20 [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|利用栈|easy
 
 
 
