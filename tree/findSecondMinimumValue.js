@@ -1,24 +1,22 @@
 var findSecondMinimumValue = function(root) {
+    let arrs = [];
+    helper(root, arrs);
     let min = root.val;
-    let rightMin = helper(root.right);
-    let leftMin = helper(root.left);
+    let secondMin = Number.MAX_VALUE;
+    arrs.forEach(num => {
+        if (num > min && num < secondMin) {
+            secondMin = num;
+        }
+    });
+    return secondMin === Number.MAX_VALUE ? -1 : secondMin;
+};
 
-}; 
-
-var helper = function(root) {
-    if(root === null) return Number.MAX_VALUE;
-    let min;
-    let secondMin = -1;
-    let leftMin = Number.MAX_VALUE;
-    let rightMin = Number.MAX_VALUE;
-    if(root.left) {
-        leftMin = helper(root.left);
+var helper = function(root, arrs) {
+    if (root) {
+        arrs.push(root.val);
+        helper(root.left, arrs);
+        helper(root.right, arrs);
     }
-    if(root.right) {
-        rightMin = helper(root.right);
-    }
-    min = Math.min(root.val, leftMin, rightMin);
-    return min;
 }
 
 var test = {
@@ -29,10 +27,10 @@ var test = {
         left: null
     },
     right: {
-        val: 2,
+        val: 5,
         left: null,
         right: null
     }
 }
 
-console.log(helper(test));
+console.log(findSecondMinimumValue(test));
