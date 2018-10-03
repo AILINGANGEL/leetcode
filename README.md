@@ -133,6 +133,8 @@
 852 [山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/description/)||easy
 704 [二分查找](https://leetcode-cn.com/problems/binary-search/description/)|1.循环遍历 2.递归|easy
 69 [x的平方根](https://leetcode-cn.com/problems/sqrtx/description/)||easy
+33 [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)||medium
+
 
 
 
