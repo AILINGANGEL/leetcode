@@ -125,6 +125,7 @@
 653 [两数之和-输入BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)|1.中序遍历|easy
 671 [二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)||easy
 107 [二叉树的层次遍历2](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)||easy
+112 [路径总和](https://leetcode-cn.com/problems/path-sum/)|递归|easy
 
 
 ### 二分查找
