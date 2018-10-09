@@ -19,6 +19,7 @@
 169[求众数](https://leetcode-cn.com/problems/majority-element/description/)|1.map 2.排序 3.Boyer-Moore Voting Algorithm|easy
 229 [求众数2](https://leetcode-cn.com/problems/majority-element-ii/description/)|boyer-Moore 因为要求数字出现的个数大于数组长度的1/3,所以顶多会有两个这样的数，记录每个候选数字的个数，最后再检查候选数字的出现数字是否大于数组长度的1/3| medium
 219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy
+389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)||easy
 
 
 
@@ -123,7 +124,9 @@
 572 [另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/description/)|数的遍历|easy
 653 [两数之和-输入BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)|1.中序遍历|easy
 671 [二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)||easy
-
+107 [二叉树的层次遍历2](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)||easy
+112 [路径总和](https://leetcode-cn.com/problems/path-sum/)|递归|easy
+110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|递归|easy
 
 ### 二分查找
 
