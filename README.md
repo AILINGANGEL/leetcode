@@ -19,6 +19,7 @@
 169[求众数](https://leetcode-cn.com/problems/majority-element/description/)|1.map 2.排序 3.Boyer-Moore Voting Algorithm|easy
 229 [求众数2](https://leetcode-cn.com/problems/majority-element-ii/description/)|boyer-Moore 因为要求数字出现的个数大于数组长度的1/3,所以顶多会有两个这样的数，记录每个候选数字的个数，最后再检查候选数字的出现数字是否大于数组长度的1/3| medium
 219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy
+804 [唯一摩斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)||easy
 
 
 
