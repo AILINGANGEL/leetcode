@@ -102,12 +102,12 @@
 
 ### 二叉树
 
-题号           | 解题思路 |  难度
-------------- | ------------- | ------------- |
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- | ------------- |
 104 [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) |递归| easy
 111 [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/submissions/1) |树的广度遍历| easy
 102 [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/)|queue| medium
-101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy
+101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy | 2
 100 [相同的树](https://leetcode-cn.com/problems/same-tree/description/) || easy
 102 [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|1.递归解法 2.循环遍历解法|easy
 98 [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/)|中序遍历(递归 and 循环遍历)|medium
