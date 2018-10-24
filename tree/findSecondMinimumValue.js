@@ -1,25 +1,45 @@
+// var findSecondMinimumValue = function(root) {
+//     let arrs = [];
+//     helper(root, arrs);
+//     let min = root.val;
+//     let secondMin = Number.MAX_VALUE;
+//     arrs.forEach(num => {
+//         if (num > min && num < secondMin) {
+//             secondMin = num;
+//         }
+//     });
+//     return secondMin === Number.MAX_VALUE ? -1 : secondMin;
+// };
+
+// var helper = function(root, arrs) {
+//     if (root) {
+//         arrs.push(root.val);
+//         helper(root.left, arrs);
+//         helper(root.right, arrs);
+//     }
+// }
+
 var findSecondMinimumValue = function(root) {
-    let min = root.val;
-    let rightMin = helper(root.right);
-    let leftMin = helper(root.left);
+    let obj = {
+        min: root.val,
+        secondMin: Number.MAX_VALUE
+    };
+    helper(root, obj);
+    return obj.secondMin === Number.MAX_VALUE ? -1 : obj.secondMin;
 
-}; 
-
-var helper = function(root) {
-    if(root === null) return Number.MAX_VALUE;
-    let min;
-    let secondMin = -1;
-    let leftMin = Number.MAX_VALUE;
-    let rightMin = Number.MAX_VALUE;
-    if(root.left) {
-        leftMin = helper(root.left);
-    }
-    if(root.right) {
-        rightMin = helper(root.right);
-    }
-    min = Math.min(root.val, leftMin, rightMin);
-    return min;
 }
+var helper = function(root, obj) {
+    if (root) {
+        if (root.val < obj.secondMin && root.val > obj.min) {
+            obj.secondMin = root.val;
+        } else if (root.val === obj.min) {
+            helper(root.left, obj);
+            helper(root.right, obj);
+        }
+    }
+}
+
+
 
 var test = {
     val: 2,
@@ -29,10 +49,10 @@ var test = {
         left: null
     },
     right: {
-        val: 2,
+        val: 5,
         left: null,
         right: null
     }
 }
 
-console.log(helper(test));
+console.log(findSecondMinimumValue(test));
