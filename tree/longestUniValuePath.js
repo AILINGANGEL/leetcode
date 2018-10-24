@@ -1,12 +1,58 @@
+
+let result = 0;
 var longestUnivaluePath = function(root) {
-    if(root === null || (root.left === null && root.right === null)) return 0;
-     var l = 0;
-    if( root.left && root.left.val === root.val) {
-        l = 1;
-    }
-    var r = 0;
-    if(root.right && root.right.val === root.val) {
-        r = 1;
-    }
-    return Math.max(longestUnivaluePath(root.left) + l, longestUnivaluePath(root.right)+r); 
+	result = 0;
+	heloper(root);
+	return result;
 };
+
+var heloper = function(root) {
+	if (root == null) return 0;
+	let left = heloper(root.left);
+	let right = heloper(root.right);
+	let arrowLeft = 0;
+	let arrowRight = 0;
+	if(root.left && root.left.val === root.val) {
+		arrowLeft = left + 1;
+	}
+
+	if(root.right && root.right.val === root.val) {
+		arrowRight = right + 1;
+	}
+
+	result = Math.max(result, arrowLeft + arrowRight);
+	return Math.max(arrowLeft, arrowRight);
+}
+
+
+var test = {
+	val: 1,
+	left: {
+		val: 4,
+		left: {
+			val: 4,
+			left: null,
+			right: null
+		},
+		right: {
+			val: 4,
+			left: null,
+			right: null
+		}
+	},
+	right: {
+		val: 5,
+		left: null,
+		right: {
+			val: 5,
+			left: null,
+			right: null
+		}
+	}
+}
+
+
+longestUnivaluePath(test);
+
+console.log(result)
+>>>>>>> c037d7a086b71d3da5eefac5f43689f1e9084e68

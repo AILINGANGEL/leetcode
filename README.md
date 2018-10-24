@@ -66,11 +66,11 @@
 
 ### 链表
 
-题号           | 解题思路 |  难度
-------------- | ------------- | -------------|
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | -------------|-------------|
 237[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/) |因为无法访问这个节点的上一个节点，所以用当前节点的下一个节点来替换当前节点的内容，然后删除下一个节点| easy
 19[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/)|1.两次循环，第一次找出链表的长度 2.一次循环，初始化fast结点为距离头结点的第n个结点，然后开始以one step的速度同时移动fast和slow结点直到fast结点指向队尾的结点，这个时候slow就是指向的要删除的第n个结点的前一个结点|medium
-206[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) |注意这个题的递归解法| easy
+206[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) |注意这个题的递归解法| easy | 2|
 26 [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/) || easy
 27 [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)|1.遍历借助数组 2.反转后半部分链表 |easy
 707 [设计链表](https://leetcode-cn.com/problems/design-linked-list/description/)|| easy
@@ -103,12 +103,12 @@
 
 ### 二叉树
 
-题号           | 解题思路 |  难度
-------------- | ------------- | ------------- |
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- | ------------- |
 104 [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) |递归| easy
 111 [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/submissions/1) |树的广度遍历| easy
 102 [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/)|queue| medium
-101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy
+101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy | 2
 100 [相同的树](https://leetcode-cn.com/problems/same-tree/description/) || easy
 102 [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|1.递归解法 2.循环遍历解法|easy
 98 [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/)|中序遍历(递归 and 循环遍历)|medium
@@ -129,6 +129,7 @@
 107 [二叉树的层次遍历2](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)||easy
 112 [路径总和](https://leetcode-cn.com/problems/path-sum/)|递归|easy
 110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|递归|easy
+530 [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|1.中序遍历,但是解法不是很好,终于遍历和计算最小绝对差都各自遍历了一次| easy
 
 ### 二分查找
 题号           | 解题思路 |  难度
@@ -140,6 +141,19 @@
 33 [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)||medium
 
 
+
+### 递归
+题号           | 解题思路 |  难度
+------------- | ------------- | ------------- |
+162 [最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)|需要再练习!!!!|easy
+
+
+### 数学
+题号           | 解题思路 |  难度
+------------- | ------------- | ------------- |
+204 [计数质数](https://leetcode-cn.com/problems/count-primes/)|O(n)的空间复杂度 O(n)的时间复杂度|easy
+412 [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|三种解法|easy
+326 [3的幂](https://leetcode-cn.com/problems/power-of-three/)|很多种解法!!!!|easy
 
 
 ### 其他
