@@ -13,6 +13,8 @@ var reverseList = function(head) {
 };
 
 
+// 5 -> 4 -> 3 -> 2-> 1-> null
+
 // leetcode 递归解法
 var reverseList = function(head) {
     if (head === null || head.next === null)
@@ -37,3 +39,34 @@ var reverseList = function(head) {
     }
     return head;
 };
+
+
+
+// 2018-10-24-再次练习
+var fakeHead;
+
+var reverseList = function(head) {
+    fakeHead = {
+        val: 0,
+        next: null
+    }
+    helper(head);
+    return fakeHead.next;
+};
+
+
+var helper = function(head) {
+    if (head === null) return fakeHead;
+    let node = helper(head.next);
+    node.next = head;
+    head.next = null;
+    return head;
+};
+
+let test = {
+    val: 5,
+    next: null
+}
+
+
+console.log(reverseList(test));
