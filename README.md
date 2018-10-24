@@ -128,6 +128,7 @@
 107 [二叉树的层次遍历2](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)||easy
 112 [路径总和](https://leetcode-cn.com/problems/path-sum/)|递归|easy
 110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|递归|easy
+530 [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|1.中序遍历,但是解法不是很好,终于遍历和计算最小绝对差都各自遍历了一次| easy
 
 ### 二分查找
 
