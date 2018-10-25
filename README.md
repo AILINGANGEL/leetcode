@@ -21,6 +21,7 @@
 219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy
 804 [唯一摩斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)||easy
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)||easy
+665 [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)|其实一点也不easy啊啊啊!!!|easy
 
 
 
