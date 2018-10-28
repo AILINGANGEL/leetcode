@@ -155,6 +155,7 @@
 204 [计数质数](https://leetcode-cn.com/problems/count-primes/)|O(n)的空间复杂度 O(n)的时间复杂度|easy
 412 [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|三种解法|easy
 326 [3的幂](https://leetcode-cn.com/problems/power-of-three/)|很多种解法!!!!|easy
+263 [丑数](https://leetcode-cn.com/problems/ugly-number/)|递归|easy
 
 
 ### HashTable
