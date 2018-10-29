@@ -11,8 +11,8 @@
 136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
-36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 | 中等
-283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法
+36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium
+283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法| easy | 2
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy
