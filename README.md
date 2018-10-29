@@ -21,6 +21,7 @@
 219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy
 804 [唯一摩斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)||easy
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)||easy
+665 [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)|其实一点也不easy啊啊啊!!!|easy
 
 
 
@@ -46,6 +47,7 @@
 415 [字符串相加](https://leetcode-cn.com/problems/add-strings/description/)||easy
 500 [键盘行](https://leetcode-cn.com/problems/keyboard-row/description/)||easy
 20 [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|利用栈|easy
+389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)|1.利用对象 2.利用异或运算(0和任何数进行异或都是任何数,任何数和自己进行异或都是0)|easy
 
 
 
@@ -81,7 +83,7 @@
 61 [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/)||medium
 747 [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/) ||easy
 83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy
-876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|双指针|easy
+876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|2
 
 
 
@@ -127,11 +129,10 @@
 671 [二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)||easy
 107 [二叉树的层次遍历2](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)||easy
 112 [路径总和](https://leetcode-cn.com/problems/path-sum/)|递归|easy
-110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|递归|easy
+110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|第二次练习采用一次递归的方式完成,但是代码还有可以改进的地方,可以避免使用全局变量|easy|2
 530 [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|1.中序遍历,但是解法不是很好,终于遍历和计算最小绝对差都各自遍历了一次| easy
 
 ### 二分查找
-
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- |
 162 [寻找峰值]()|1.遍历一 2.二分查找（循环）3.递归|medium
@@ -154,6 +155,13 @@
 204 [计数质数](https://leetcode-cn.com/problems/count-primes/)|O(n)的空间复杂度 O(n)的时间复杂度|easy
 412 [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|三种解法|easy
 326 [3的幂](https://leetcode-cn.com/problems/power-of-three/)|很多种解法!!!!|easy
+263 [丑数](https://leetcode-cn.com/problems/ugly-number/)|递归|easy
+
+
+### HashTable
+题号           | 解题思路 |  难度
+------------- | ------------- | ------------- |
+202 [Kuaile数](https://leetcode-cn.com/problems/happy-number/)|1.当经过平方运算得到的数字已经在hash set中出现过时,有两种可能,如果这个数是1那么就是happy的，如果不是1会依次再循环下去，肯定不是happy的2.利用类似链表里面环的存在与否解法一样,一个快指针一个慢指针|easy
 
 
 ### 其他

@@ -1,3 +1,4 @@
+
 let result = 0;
 var longestUnivaluePath = function(root) {
 	result = 0;
@@ -54,3 +55,4 @@ var test = {
 longestUnivaluePath(test);
 
 console.log(result)
+>>>>>>> c037d7a086b71d3da5eefac5f43689f1e9084e68
