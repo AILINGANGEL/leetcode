@@ -17,3 +17,25 @@ var levelOrderBottom = function(root) {
     }
     return res;
 };
+
+
+
+var levelOrderBottom = function(root) {
+    let res = [];
+    if(root === null) return res;
+    let queue = [root];
+    while(queue.length > 0) {
+        let n = queue.length;
+        let subQueue = [];
+        let subres = [];
+        for(let i = 0; i < n; i++) {
+            let node = queue.shift();
+            if(node.left) subQueue.push(node.left);
+            if(node.right) subQueue.push(node.right);
+            subres.push(node.val);
+        }
+        res.unshift(subres);
+        queue = subQueue;
+    }
+    return res;
+};
