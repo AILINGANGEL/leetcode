@@ -22,7 +22,8 @@
 804 [唯一摩斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)||easy
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)||easy
 665 [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)|其实一点也不easy啊啊啊!!!|easy
-80 [删除排序数组中的重复项2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/)|双指针|medium
+80 [删除排序数组中的重复项2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/)|双指针|medium	
+896 [单调数列](https://leetcode-cn.com/problems/monotonic-array/)||easy
 
 ### 栈
 题号           | 解题思路  | 难度| 练习次数
@@ -113,7 +114,7 @@
 ------------- | ------------- | ------------- | ------------- |
 104 [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) |递归| easy
 111 [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/submissions/1) |树的广度遍历| easy
-102 [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/)|queue| medium
+102 [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/)|queue| medium|2
 101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy | 2
 100 [相同的树](https://leetcode-cn.com/problems/same-tree/description/) || easy
 102 [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|1.递归解法 2.循环遍历解法|easy
@@ -132,7 +133,7 @@
 572 [另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/description/)|数的遍历|easy
 653 [两数之和-输入BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)|1.中序遍历|easy
 671 [二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)||easy
-107 [二叉树的层次遍历2](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)||easy
+107 [二叉树的层次遍历2](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)||easy|2
 112 [路径总和](https://leetcode-cn.com/problems/path-sum/)|递归|easy
 110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|第二次练习采用一次递归的方式完成,但是代码还有可以改进的地方,可以避免使用全局变量|easy|2
 530 [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|1.中序遍历,但是解法不是很好,终于遍历和计算最小绝对差都各自遍历了一次| easy

@@ -49,3 +49,29 @@ var levelOrder = function(root) {
     }
     return result;
 };
+
+
+var levelOrder = function(root) {
+    if(root === null) return [];
+    let queue = [root];
+    let res = [];
+    let cur = [];
+    let nextQueue = [];
+    while(queue.length > 0) {
+        let node = queue.shift();
+        cur.push(node.val);
+        if(node.left) {
+            nextQueue.push(node.left);
+        }
+        if(node.right) {
+            nextQueue.push(node.right);
+        }
+        if(queue.length == 0) {
+            res.push(cur);
+            cur = [];
+            queue = nextQueue;
+            nextQueue = [];
+        }
+    }
+    return res;
+};
