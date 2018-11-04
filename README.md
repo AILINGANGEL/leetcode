@@ -24,7 +24,10 @@
 665 [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)|其实一点也不easy啊啊啊!!!|easy
 80 [删除排序数组中的重复项2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/)|双指针|medium
 
-
+### 栈
+题号           | 解题思路  | 难度| 练习次数
+------------- | ------------- |  ------------- |------------- | 
+496[下一个更大元素1](https://leetcode-cn.com/problems/next-greater-element-i/description/)|需要再用stack练习一次!!!|easy|1
 
 ### 字符串
 
