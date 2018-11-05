@@ -28,7 +28,7 @@
 ### 栈
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
-496[下一个更大元素1](https://leetcode-cn.com/problems/next-greater-element-i/description/)|需要再用stack练习一次!!!|easy|1
+496[下一个更大元素1](https://leetcode-cn.com/problems/next-greater-element-i/description/)|用栈的解法|easy|2
 
 ### 字符串
 
@@ -101,7 +101,7 @@
 88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy
 
 
-### 栈和队列
+### 队列
 
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- | 
