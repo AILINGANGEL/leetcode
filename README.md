@@ -176,6 +176,7 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- |
 70[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/)|动态规划|easy
+121[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)||easy
 
 
 ### 其他
