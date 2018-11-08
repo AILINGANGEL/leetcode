@@ -11,3 +11,18 @@ var maxProfit = function(prices) {
 
 let test = [7, 6, 5, 4, 3];
 console.log(maxProfit(test));
+
+
+
+var maxProfit = function(prices) {
+    let min = Number.MAX_VALUE;
+    let profit = 0;
+    for(let i = 0; i < prices.length; i++) {
+        if(prices[i] < min ) {
+            min = prices[i];
+        } else if (prices[i] - min > profit) {
+            profit = prices[i] - min;
+        }
+    }
+    return profit;
+};
