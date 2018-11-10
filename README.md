@@ -170,6 +170,7 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- |
 202 [快乐数](https://leetcode-cn.com/problems/happy-number/)|1.当经过平方运算得到的数字已经在hash set中出现过时,有两种可能,如果这个数是1那么就是happy的，如果不是1会依次再循环下去，肯定不是happy的2.利用类似链表里面环的存在与否解法一样,一个快指针一个慢指针|easy
+706 [设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/description/)||easy
 
 
 ### 动态规划
