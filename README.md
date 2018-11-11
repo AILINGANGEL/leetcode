@@ -8,7 +8,6 @@
 189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
 1[两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用Object来降低时间复杂度
 217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object|
-136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium
@@ -171,6 +170,8 @@
 ------------- | ------------- | ------------- |
 202 [快乐数](https://leetcode-cn.com/problems/happy-number/)|1.当经过平方运算得到的数字已经在hash set中出现过时,有两种可能,如果这个数是1那么就是happy的，如果不是1会依次再循环下去，肯定不是happy的2.利用类似链表里面环的存在与否解法一样,一个快指针一个慢指针|easy
 706 [设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/description/)||easy
+349 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/description/)||easy
+
 
 
 ### 动态规划
@@ -180,7 +181,8 @@
 121[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)|1.动态规划解法 2.一次遍历解法|easy
 
 
-### 其他
-题号           | 解题思路 |  难度
-------------- | ------------- | ------------- |
+### 位运算
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- | ------------- |
 190 [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)||easy
+136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字|easy|2
