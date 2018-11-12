@@ -41,3 +41,23 @@ var calSquareNum = function(n) {
     }
     return res;
 };
+
+
+var isHappy = function(n) {
+   let set = new Set();
+   while(!set.has(n) && n !==1) {
+       set.add(n);
+       n = calSquareNum(n);
+   }
+    return n === 1;
+};
+    
+var calSquareNum = function(n) {
+    let res = 0;
+    while(n) {
+        let mod = n % 10;
+        res += mod * mod;
+        n = Math.floor(n/10);
+    }
+    return res;
+};
