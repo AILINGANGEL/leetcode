@@ -6,7 +6,6 @@
 122 [Best Time to Buy and Sell Stock 2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |xxx |
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
 189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
-1[两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用Object来降低时间复杂度
 217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object|
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
@@ -171,6 +170,7 @@
 202 [快乐数](https://leetcode-cn.com/problems/happy-number/)|1.当经过平方运算得到的数字已经在hash set中出现过时,有两种可能,如果这个数是1那么就是happy的，如果不是1会依次再循环下去，肯定不是happy的2.利用类似链表里面环的存在与否解法一样,一个快指针一个慢指针|easy|2
 706 [设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/description/)||easy
 349 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/description/)||easy
+1[两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用map来记录值和下标之间的对应关系，此处下标数据额外的信息|easy|2
 
 
 
