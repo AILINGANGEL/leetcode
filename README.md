@@ -172,6 +172,7 @@
 349 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/description/)||easy
 1[两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用map来记录值和下标之间的对应关系，此处下标数据额外的信息|easy|2
 205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
+599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy
 
 
 
