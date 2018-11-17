@@ -29,69 +29,26 @@
 //         helper(root.right, arr);
 //     }
 // };
-var head = null;
+
+var cur;
+
 var increasingBST = function(root) {
-    let node = root;
-    console.log('-----');
-    console.log(node);
-    let tmp = null;
-    if(node && node.left) {
-        node = node.left;
-        tmp = node;
-        while(node.right) {
-            node = node.right;
-        }
-        node.right = root;
-    }
-    if(root) {
-        head = root;
-        root.left = null;
-        increasingBST(tmp);
-        increasingBST(root.right);
-    }
-    return head;
-}
-
-var test = {
-    val: 5,
-    left: null,
-    right: {
-        val: 6,
+    let node = {
+        val: -1,
         left: null,
-        right: {
-            val: 8,
-            left: {
-                val: 7,
-                left: null,
-                right: null
-            },
-            right: {
-                val: 9,
-                left: null,
-                right: null
-            }
-        }
+        right: null
+    }
+    cur = node;
+    inOrder(root);
+    return node.right;
+};
+
+var inOrder = function(root) {
+    if(root) {
+        inOrder(root.left);
+        root.left = null;
+        cur.right = root;
+        cur = root;
+        inOrder(root.right);
     }
 }
-increasingBST(test);
-console.log(test);
-
-
-// {
-//         val: 3,
-//         left: {
-//             val:1,
-//             left: null,
-//             right: {
-//                 val: 2,
-//                 left: null,
-//                 right: null
-//             }
-//         },
-//         right: {
-//             val: 4,
-//             left: null,
-//             right: null
-//         }
-//     },
-
