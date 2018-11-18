@@ -11,17 +11,39 @@ var findRestaurant = function(list1, list2) {
             map[item].common = true;
         }
     });
-    console.log(map);
     let res = [];
     let minIndex = list1.length + list2.length;
     for(let key in map) {
         if(map.hasOwnProperty(key)) {
             if(map[key].common) {
                 if(map[key].index < minIndex) {
+                    minIndex = map[key].index;
                     res = [key];
                 } else if (map[key].index === minIndex) {
                     res.push(key);
                 }
+            }
+        }
+    }
+    return res;
+};
+
+
+var findRestaurant = function(list1, list2) {
+    let map = {};
+    for(let i = 0; i < list1.length; i++) {
+        map[list1[i]] = i;
+    }
+    let maxIndex = list1.length + list2.length;
+    let res = [];
+    for(let i = 0; i < list2.length; i++) {
+        let index = map[list2[i]];
+        if( index !== undefined) {
+            if(index + i < maxIndex) {
+                res = [list2[i]];
+                maxIndex = index + i;
+            } else if (index + i === maxIndex) {
+                res.push(list2[i]);
             }
         }
     }
