@@ -1,3 +1,34 @@
+var intersect = function(nums1, nums2) {
+    let map1 = {};
+    let map2 = {};
+    nums1.forEach(num=> {
+        if(map1[num] === undefined) {
+            map1[num] = 1;
+        } else {
+            map1[num]++;
+        }
+    });
+    nums2.forEach(num=> {
+        if(map2[num] === undefined) {
+            map2[num] = 1;
+        } else {
+            map2[num]++;
+        }
+    });
+    let res = [];
+    for(let num in map1) {
+        if(map1.hasOwnProperty(num) && map2[num] !== undefined) {
+            let n = Math.min(map1[num], map2[num]);
+            while(n!== 0) {
+                res.push(num);
+                n--;
+            }
+        }
+    }
+    return res;
+};
+
+
 // 首次写的算法，利用js 对象来记录每个数字出现的下标，在对第二个数组进行遍历的时候，如果发现这个数字出现过就弹出一个下标;
 var intersect = function(nums1, nums2) {
     var map = {};
