@@ -7,7 +7,6 @@
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
 189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
 217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object|
-350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium
 283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法| easy | 2
@@ -174,6 +173,7 @@
 1[两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用map来记录值和下标之间的对应关系，此处下标数据额外的信息|easy|2
 205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
 599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy|2
+350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|2
 
 
 
