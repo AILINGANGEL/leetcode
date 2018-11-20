@@ -15,7 +15,6 @@
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy
 169[求众数](https://leetcode-cn.com/problems/majority-element/description/)|1.map 2.排序 3.Boyer-Moore Voting Algorithm|easy
 229 [求众数2](https://leetcode-cn.com/problems/majority-element-ii/description/)|boyer-Moore 因为要求数字出现的个数大于数组长度的1/3,所以顶多会有两个这样的数，记录每个候选数字的个数，最后再检查候选数字的出现数字是否大于数组长度的1/3| medium
-219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy
 804 [唯一摩斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)||easy
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)||easy
 665 [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)|其实一点也不easy啊啊啊!!!|easy
@@ -174,6 +173,7 @@
 205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
 599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy|2
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|2
+219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy|2
 
 
 
