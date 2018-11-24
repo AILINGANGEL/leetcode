@@ -8,7 +8,6 @@
 189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
 217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object|
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
-36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium
 283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法| easy | 2
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy
@@ -175,6 +174,7 @@
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|2
 219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy|2
 49 [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/description/)||medium|
+36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium|2
 
 
 
