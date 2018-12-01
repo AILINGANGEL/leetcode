@@ -20,3 +20,21 @@ var reverseOnlyLetters = function(S) {
     }
     return arr.join('');
 };
+
+
+
+// stack解法
+var reverseOnlyLetters = function(S) {
+    let arr = S.split('').filter(item=>item.match(/[a-zA-Z]/));
+    let res = [];
+    let i = 0;
+    while(i<S.length) {
+        if(S[i].match(/[a-zA-Z]/)){
+            res.push(arr.pop());
+        } else {
+            res.push(S[i]);
+        }
+        i++;
+    }
+    return res.join('');
+};
