@@ -193,3 +193,4 @@
 ------------- | ------------- | ------------- | ------------- |
 190 [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)||easy
 136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字|easy|2
+693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy
