@@ -145,6 +145,7 @@
 704 [二分查找](https://leetcode-cn.com/problems/binary-search/description/)|1.循环遍历 2.递归|easy
 69 [x的平方根](https://leetcode-cn.com/problems/sqrtx/description/)||easy
 33 [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)||medium
+278 [第一个错误版本](https://leetcode-cn.com/problems/first-bad-version/description/)||easy
 
 
 
