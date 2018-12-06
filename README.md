@@ -7,21 +7,19 @@
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
 189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
 217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object|
-350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
-36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium
 283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法| easy | 2
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy
 169[求众数](https://leetcode-cn.com/problems/majority-element/description/)|1.map 2.排序 3.Boyer-Moore Voting Algorithm|easy
 229 [求众数2](https://leetcode-cn.com/problems/majority-element-ii/description/)|boyer-Moore 因为要求数字出现的个数大于数组长度的1/3,所以顶多会有两个这样的数，记录每个候选数字的个数，最后再检查候选数字的出现数字是否大于数组长度的1/3| medium
-219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy
 804 [唯一摩斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)||easy
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)||easy
 665 [非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)|其实一点也不easy啊啊啊!!!|easy
 80 [删除排序数组中的重复项2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/)|双指针|medium	
 896 [单调数列](https://leetcode-cn.com/problems/monotonic-array/)||easy
+888 [公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap/description/)|注意公式!!!!!|easy
 
 ### 栈
 题号           | 解题思路  | 难度| 练习次数
@@ -51,6 +49,7 @@
 500 [键盘行](https://leetcode-cn.com/problems/keyboard-row/description/)||easy
 20 [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|利用栈|easy
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)|1.利用对象 2.利用异或运算(0和任何数进行异或都是任何数,任何数和自己进行异或都是0)|easy
+917 [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/description/)||
 
 
 
@@ -88,6 +87,7 @@
 747 [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/) ||easy
 83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy
 876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|2
+445 [两束相加2](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)|利用栈!凡是需要从末尾开始的都考虑需要利用栈!!!!!!|medium|1
 
 
 
@@ -136,6 +136,9 @@
 110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|第二次练习采用一次递归的方式完成,但是代码还有可以改进的地方,可以避免使用全局变量|easy|2
 530 [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|1.中序遍历,但是解法不是很好,终于遍历和计算最小绝对差都各自遍历了一次| easy
 637 [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|层次遍历|easy
+897 [递增顺序查找树](https://leetcode-cn.com/problems/increasing-order-search-tree/description/)|中序遍历 !递归解法！！！！！！|easy|2
+606[根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|递归!!!!|easy|1
+669 [修建二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/description/)|递归！！！！！|easy|1
 
 ### 二分查找
 题号           | 解题思路 |  难度
@@ -172,6 +175,12 @@
 706 [设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/description/)||easy
 349 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/description/)||easy
 1[两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用map来记录值和下标之间的对应关系，此处下标数据额外的信息|easy|2
+205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
+599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy|2
+350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|2
+219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy|2
+49 [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/description/)||medium|
+36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium|2
 
 
 
@@ -187,3 +196,4 @@
 ------------- | ------------- | ------------- | ------------- |
 190 [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)||easy
 136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字|easy|2
+693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy
