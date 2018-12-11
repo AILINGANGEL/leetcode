@@ -185,6 +185,11 @@
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium|2
 
 
+### BackTracking
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- |------------- |
+46 [Permutation](https://leetcode.com/problems/permutations/description/)|递归|medium|1
+
 
 ### 动态规划
 题号           | 解题思路 |  难度
