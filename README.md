@@ -189,7 +189,7 @@
 ### BackTracking
 题号           | 解题思路 |  难度 | 练习次数
 ------------- | ------------- | ------------- |------------- |
-46 [Permutation](https://leetcode.com/problems/permutations/description/)|递归|medium|1
+46 [Permutation](https://leetcode.com/problems/permutations/description/)|递归|medium|2
 
 
 ### 动态规划
