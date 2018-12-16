@@ -41,3 +41,23 @@ var removeNthFromEnd = function(head, n) {
     slow.next = slow.next.next;
     return head;
 };
+
+
+var removeNthFromEnd = function(head, n) {
+    let fast = head;
+    let slow = head;
+    let i = 0;
+    while(fast && i < n) {
+        fast = fast.next;
+        i++;
+    }
+    if(!fast) {
+        return head.next;
+    }
+    while(fast.next) {
+        fast = fast.next;
+        slow = slow.next;
+    }
+    slow.next = slow.next.next;
+    return head;
+};
