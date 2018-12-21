@@ -169,7 +169,7 @@
 263 [丑数](https://leetcode-cn.com/problems/ugly-number/)|递归|easy
 22 [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)||easy
 253 [add digits](https://leetcode.com/problems/add-digits/description/)|1.递归2.公式dr(n) = 1 + (n - 1) % 9|easy
-9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|logn的解法!!!|easy|1
+9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|logn的解法!!!|easy|2
 
 
 ### HashTable
