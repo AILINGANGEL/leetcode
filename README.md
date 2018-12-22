@@ -140,7 +140,7 @@
 897 [递增顺序查找树](https://leetcode-cn.com/problems/increasing-order-search-tree/description/)|中序遍历 !递归解法！！！！！！|easy|2
 606[根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|递归!!!!|easy|1
 669 [修建二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/description/)|递归！！！！！|easy|1
-142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)||medium|1
+142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|注意推导步骤!!!!|medium|2
 
 ### 二分查找
 题号           | 解题思路 |  难度
