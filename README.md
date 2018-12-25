@@ -1,7 +1,6 @@
 ### 数组
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
-268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算
 26 [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | 双指针解法 | easy| 2
 122 [Best Time to Buy and Sell Stock 2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |xxx |
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
@@ -207,4 +206,5 @@
 ------------- | ------------- | ------------- | ------------- |
 190 [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)||easy
 136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字|easy|2
-693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy
+693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy|1
+268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算|2
