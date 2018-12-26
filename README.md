@@ -208,3 +208,4 @@
 136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字|easy|2
 693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy|1
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算|2
+213 [Power of Two](https://leetcode.com/problems/power-of-two/description/)|n & n - 1|easy|1
