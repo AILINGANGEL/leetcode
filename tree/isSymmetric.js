@@ -26,3 +26,17 @@ var isSymmetric = function(root) {
     }
     return true;
 }
+
+
+var isSymmetric = function(root) {
+    if(root) {
+        return helper(root.left, root.right);
+    }
+    return true;
+};
+
+var helper = function(roota, rootb) {
+    if(roota === null && rootb === null) return true;
+    if(roota === null || rootb === null) return false;
+    return roota.val === rootb.val && helper(roota.right, rootb.left) && helper(roota.left, rootb.right);
+};
