@@ -55,14 +55,14 @@
 
 ### 双指针
 
-题号           | 解题思路 |  难度
-------------- | ------------- | ------------- | 
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- | -------------|
 209[长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/) | | medium
 485 [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|两种解法,第二种双指针方法| easy
 344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法 | easy
 561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
 167 [两数之和2-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/) || easy
-28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy 
+28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy |2
 75 [颜色分类](https://leetcode-cn.com/problems/sort-colors/description/)|双指针|medium
 
 
