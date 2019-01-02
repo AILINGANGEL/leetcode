@@ -1,7 +1,6 @@
 ### 数组
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
-268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算
 26 [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | 双指针解法 | easy| 2
 122 [Best Time to Buy and Sell Stock 2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |xxx |
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) | 
@@ -56,14 +55,14 @@
 
 ### 双指针
 
-题号           | 解题思路 |  难度
-------------- | ------------- | ------------- | 
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- | -------------|
 209[长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/) | | medium
 485 [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|两种解法,第二种双指针方法| easy
 344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法 | easy
 561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
 167 [两数之和2-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/) || easy
-28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy 
+28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy |2
 75 [颜色分类](https://leetcode-cn.com/problems/sort-colors/description/)|双指针|medium
 
 
@@ -86,7 +85,7 @@
 2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)||easy
 61 [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/)||medium
 747 [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/) ||easy
-83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy
+83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy|2
 876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|3
 445 [两束相加2](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)|利用栈!凡是需要从末尾开始的都考虑需要利用栈!!!!!!|medium|1
 
@@ -114,7 +113,7 @@
 104 [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/) |递归| easy
 111 [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/submissions/1) |树的广度遍历| easy
 102 [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/)|queue| medium|2
-101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy | 2
+101 [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/description/)|将树自己和自己进行对比, 自己的左子树等于自己的右子树| easy | 3
 100 [相同的树](https://leetcode-cn.com/problems/same-tree/description/) || easy
 102 [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|1.递归解法 2.循环遍历解法|easy
 98 [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/)|中序遍历(递归 and 循环遍历)|medium
@@ -170,6 +169,7 @@
 22 [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)||easy
 253 [add digits](https://leetcode.com/problems/add-digits/description/)|1.递归2.公式dr(n) = 1 + (n - 1) % 9|easy
 9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|logn的解法!!!|easy|2
+7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)||easy|1
 
 
 ### HashTable
@@ -206,4 +206,6 @@
 ------------- | ------------- | ------------- | ------------- |
 190 [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)||easy
 136 [只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/) | 利用异或运算,因为同一个数字和自己异或得到的结果是0,0和任何数字进行异或运算得到另一个数字|easy|2
-693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy
+693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy|1
+268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算|2
+213 [Power of Two](https://leetcode.com/problems/power-of-two/description/)|n & n - 1|easy|1

@@ -25,3 +25,16 @@ var removeElement = function(nums, val) {
     }
     return k;
 };
+
+
+var removeElement = function(nums, val) {
+    let i = 0;
+    let j = i;
+    while(j < nums.length){
+        if(nums[j] !== val) {
+            nums[i++] = nums[j];
+        }
+        j++;
+    }
+    return i;
+};
