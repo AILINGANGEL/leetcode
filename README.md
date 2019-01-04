@@ -86,7 +86,7 @@
 61 [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/)||medium
 747 [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/) ||easy
 83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy|2
-876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|2
+876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|3
 445 [两束相加2](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)|利用栈!凡是需要从末尾开始的都考虑需要利用栈!!!!!!|medium|1
 
 
