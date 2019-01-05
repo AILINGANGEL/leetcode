@@ -88,6 +88,7 @@
 83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy|2
 876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|3
 445 [两束相加2](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)|利用栈!凡是需要从末尾开始的都考虑需要利用栈!!!!!!|medium|1
+142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|注意推导步骤!!!!|medium|2
 
 
 
@@ -139,7 +140,7 @@
 897 [递增顺序查找树](https://leetcode-cn.com/problems/increasing-order-search-tree/description/)|中序遍历 !递归解法！！！！！！|easy|2
 606[根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|递归!!!!|easy|1
 669 [修建二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/description/)|递归！！！！！|easy|1
-142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|注意推导步骤!!!!|medium|2
+965 [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/)||easy|1
 
 ### 二分查找
 题号           | 解题思路 |  难度
