@@ -141,6 +141,7 @@
 606[根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|递归!!!!|easy|1
 669 [修建二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/description/)|递归！！！！！|easy|1
 965 [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/)||easy|1
+404 [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)||easy|1
 
 ### 二分查找
 题号           | 解题思路 |  难度
