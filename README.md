@@ -143,6 +143,8 @@
 404 [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)||easy|1
 965 [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/)|1.递归 2.DFS|easy|2
 543 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)||easy|1
+783 [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)||easy|1
+
 
 ### 二分查找
 题号           | 解题思路 |  难度
