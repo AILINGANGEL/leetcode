@@ -47,5 +47,23 @@ var pivotIndex = function(nums) {
 }
 
 
+var pivotIndex = function(nums) {
+    let sum = 0;
+    for (let i = 0; i < nums.length; i++) {
+        sum += nums[i];
+    }
+    let leftSum = 0;
+    let rightSum = sum;
+    for (let i = 0; i < nums.length; i++) {
+        leftSum += (nums[i - 1] ? nums[i - 1] : 0);
+        rightSum -= nums[i];
+        if (leftSum === rightSum) {
+            return i;
+        }
+    }
+    return -1;
+};
+
+
 // nums = [1, 7, 3, 6, 5, 6]
 // index = 3
