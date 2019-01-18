@@ -6,7 +6,7 @@ var minDepth = function(root) {
         queue.push(root);
     }
     var cur = null
-    while(queue.length) {
+    while (queue.length) {
         cur = queue.shift();
         depth = cur.level;
         if (!cur.left && !cur.right) {
@@ -24,63 +24,80 @@ var minDepth = function(root) {
     return depth;
 };
 
-var test5 = {
-    val: 5,
-    left: null,
-    right: null
-}
-
-var test4 = {
-    val: 4,
-    left: null,
-    right: null
-}
-
-var test3 = {
-    val: 3,
-    left: null,
-    right: null
-}
-
-var test2 = {
-    val: 2,
-    left: test4,
-    right: test5
-}
-
-var test1 = {
-    val: 1,
-    left: test2,
-    right: test3
-}
-
-console.log(minDepth(test1))
-
-
-
 var minDepth = function(root) {
-    if(root === null) return 0;
+    if (root === null) return 0;
     let min = 0;
-    let queue = [[root]];
-    while(queue.length > 0) {
+    let queue = [
+        [root]
+    ];
+    while (queue.length > 0) {
         let nodes = queue.shift();
         let levelNode = [];
         min++;
-        while(nodes.length > 0) {
+        while (nodes.length > 0) {
             let node = nodes.shift();
-            if(node.left === null && node.right === null) {
+            if (node.left === null && node.right === null) {
                 return min;
             }
-            if(node.left) {
+            if (node.left) {
                 levelNode.push(node.left);
             }
-            if(node.right) {
+            if (node.right) {
                 levelNode.push(node.right);
             }
         }
-        if(levelNode.length > 0) {
+        if (levelNode.length > 0) {
             queue.push(levelNode);
         }
     }
     return min;
 };
+
+
+var minDepth = function(root) {
+    if (root === null) return 0;
+    if (root.left === null && root.right === null) return 1;
+    if (root.left && root.right) return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+    if (root.left) {
+        return minDepth(root.left) + 1;
+    }
+    if (root.right) {
+        return minDepth(root.right) + 1;
+    }
+}
+
+
+// var test5 = {
+//     val: 5,
+//     left: null,
+//     right: null
+// }
+
+// var test4 = {
+//     val: 4,
+//     left: null,
+//     right: null
+// }
+
+// var test3 = {
+//     val: 3,
+//     left: null,
+//     right: null
+// }
+
+// var test2 = {
+//     val: 2,
+//     left: test4,
+//     right: test5
+// }
+
+// var test1 = {
+//     val: 1,
+//     left: test2,
+//     right: test3
+// }
+
+
+// console.log(minDepth(test1))
+
+// console.log(minDepth({ val: 1, left: { val: 2, left: { val: 3, left: null, right: null }, right: null }, right: null }));
