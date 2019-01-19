@@ -11,14 +11,13 @@
 //         preorderTree(root.right, arr);
 //     }
 // }
-
 var preorderTraversal = function(root) {
-    let arr = [];
-    let stack = [];
     let node = root;
-    while (stack.length > 0 || node) {
+    let res = [];
+    let stack = [];
+    while (stack.length > 0 || node !== null) {
         if (node) {
-            arr.push(node.val);
+            res.push(node.val);
             if (node.right) {
                 stack.push(node.right);
             }
@@ -27,20 +26,20 @@ var preorderTraversal = function(root) {
             node = stack.pop();
         }
     }
-    return arr;
+    return res;
 };
 
 var test = {
-    val: 1,
-    left: null,
-    right: {
-        val: 2,
-        left: {
-            val: 3,
+    val: 3,
+    right: null,
+    left: {
+        val: 1,
+        right: {
+            val: 2,
             right: null,
             left: null
         },
-        right: null
+        left: null
     }
 }
 
