@@ -30,3 +30,20 @@ var inorderTraversal = function(root) {
     }
     return arr;
 };
+
+
+var inorderTraversal = function(root) {
+    let node = root;
+    let stack = [];
+    let nodes = [];
+    while(stack.length > 0 || node) {
+        while(node) {
+            stack.push(node);
+            node = node.left;
+        };
+        node = stack.pop();
+        nodes.push(node.val);
+        node = node.right;
+    }
+    return nodes;
+};
