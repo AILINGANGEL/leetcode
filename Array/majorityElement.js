@@ -30,3 +30,21 @@ var majorityElement = function(nums) {
     }
     return num;
 };
+
+
+var majorityElement = function(nums) {
+    let number = nums[0];
+    let cnt = 1;
+    for(let i = 1; i<nums.length; i++) {
+        if(nums[i] === number) {
+            cnt++;
+        } else {
+            cnt--;
+            if(cnt === 0) {
+                number = nums[i];
+                cnt = 1;
+            }
+        }
+    }
+    return number;
+};
