@@ -8,3 +8,13 @@ var findComplement = function(num) {
     }
     return num ^ tmp;
 };
+
+
+
+var findComplement = function(num) {
+    let i = 1;
+    while(i <= num) {
+       i =  i << 1;
+    }
+    return (i - 1) ^ num;
+};

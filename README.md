@@ -215,7 +215,7 @@
 693 [交替位二进制运算](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)||easy|1
 268 [Missing Number](https://leetcode-cn.com/problems/missing-number/description) | 求出正确的总和然后减去数组里面值的和, 第二种方法用异或运算|2
 213 [Power of Two](https://leetcode.com/problems/power-of-two/description/)|n & n - 1|easy|1
-476 [Number Complement](https://leetcode.com/problems/number-complement/description/)||easy|1
+476 [Number Complement](https://leetcode.com/problems/number-complement/description/)||easy|2
 
 
 
