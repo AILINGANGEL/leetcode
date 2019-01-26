@@ -51,6 +51,7 @@
 917 [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/description/)||easy
 520 [检测大写字母](https://leetcode-cn.com/problems/detect-capital/description/)||easy
 383 [Ransom Note](https://leetcode.com/problems/ransom-note/description/)||easy|1
+796 [旋转字符串](https://leetcode-cn.com/problems/rotate-string/description/)||easy|1
 
 
 
