@@ -10,11 +10,20 @@ var findComplement = function(num) {
 };
 
 
-
+// 会导致溢出
 var findComplement = function(num) {
     let i = 1;
-    while(i <= num) {
-       i =  i << 1;
+    while (i <= num) {
+        i = i << 1;
     }
     return (i - 1) ^ num;
+};
+
+
+var findComplement = function(num) {
+    let mask = ~0;
+    while (num & mask) {
+        mask = mask << 1;
+    }
+    return ~mask & ~num;
 };
