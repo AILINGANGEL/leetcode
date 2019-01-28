@@ -27,8 +27,8 @@
 
 ### 字符串
 
-题号           | 解题思路 |  难度
-------------- | ------------- | ------------- |
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- |------------- | 
 387 [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/description/) | |easy
 7 [反转整数](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正 | easy
 242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | |easy
@@ -146,6 +146,7 @@
 965 [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/)|1.递归 2.DFS|easy|2
 543 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)||easy|1
 783 [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)||easy|1
+538 [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)||easy|1
 
 
 ### 二分查找
