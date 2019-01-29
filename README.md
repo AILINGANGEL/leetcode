@@ -46,7 +46,7 @@
 771 [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/description/)||easy
 415 [字符串相加](https://leetcode-cn.com/problems/add-strings/description/)||easy
 500 [键盘行](https://leetcode-cn.com/problems/keyboard-row/description/)||easy
-20 [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|利用栈|easy
+20 [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|利用栈|easy|2
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)|1.利用对象 2.利用异或运算(0和任何数进行异或都是任何数,任何数和自己进行异或都是0)|easy
 917 [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/description/)||easy
 520 [检测大写字母](https://leetcode-cn.com/problems/detect-capital/description/)||easy
