@@ -54,3 +54,22 @@ var test = {
 }
 
 console.log(isValidBST(test));
+
+var isValidBST = function(root) {
+    let arr = [];
+    inOrder(root, arr);
+    for(let i=1; i<arr.length; i++) {
+        if(arr[i] <= arr[i-1]){
+            return false;
+        }
+    }
+    return true;
+}
+
+var inOrder = function(root, arr) {
+    if(root){
+        inOrder(root.left, arr);
+        arr.push(root.val);
+        inOrder(root.right, arr);
+    }
+}
