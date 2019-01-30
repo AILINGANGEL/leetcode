@@ -58,8 +58,8 @@ console.log(isValidBST(test));
 var isValidBST = function(root) {
     let arr = [];
     inOrder(root, arr);
-    for(let i=1; i<arr.length; i++) {
-        if(arr[i] <= arr[i-1]){
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] <= arr[i - 1]) {
             return false;
         }
     }
@@ -67,9 +67,34 @@ var isValidBST = function(root) {
 }
 
 var inOrder = function(root, arr) {
-    if(root){
+    if (root) {
         inOrder(root.left, arr);
         arr.push(root.val);
         inOrder(root.right, arr);
     }
 }
+
+
+// 递归解法
+
+var isValidBST = function(root) {
+    if (root === null) return true;
+    return helper(root, undefined, undefined);
+};
+
+var helper = function(root, low, high) {
+    if (low !== undefined && root.val <= low) {
+        return false;
+    }
+    if (high !== undefined && root.val >= high) {
+        return false;
+    }
+
+    let isLeftValid = root.left ? helper(root.left, low, root.val) : true;
+    if (!isLeftValid) {
+        return false;
+    } else {
+        let isRightValid = root.right ? helper(root.right, root.val, high) : true;
+        return isRightValid;
+    }
+};
