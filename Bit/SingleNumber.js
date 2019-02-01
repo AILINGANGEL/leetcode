@@ -13,3 +13,11 @@
  var singleNumber = function(nums) {
      return nums.reduce((prev, cur) => prev ^ cur);
  };
+
+var singleNumber = function(nums) {
+    let res = 0;
+    nums.forEach(num=>{
+        res ^= num;
+    });
+    return res;
+};
