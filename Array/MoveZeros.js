@@ -1,19 +1,3 @@
-//全是0的时候依然有操作
-var moveZeroes = function(nums) {
-    var i = 0;
-    var n = nums.length;
-    while (i < n) {
-        if (nums[i] === 0) {
-            nums.push(0);
-            nums.splice(i, 1);
-            n--;
-        } else {
-            i++;
-        }
-    }
-};
-
-
 //全都不是0的时候依然有操作, i记录所有的非0
 var moveZeroes = function(nums) {
     var i = 0;
@@ -83,3 +67,24 @@ var moveZeroes = function(nums) {
         nums[i++] = 0; 
     }
 };
+
+
+var moveZeroes = function(nums) {
+    let i = 0;
+    let j = 1;
+    while(j < nums.length) {
+        if(nums[i] !== 0) {
+            i++;
+        }
+        if(nums[j] !== 0) {
+           swap(nums, i, j);
+        }
+        j++;
+    }
+};
+
+let swap = function(nums, i, j) {
+    let temp = nums[i];
+    nums[i] = nums[j];
+    nums[j] = temp;
+}

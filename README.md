@@ -7,7 +7,7 @@
 189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
 217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object|
 351 [加1](https://leetcode-cn.com/problems/plus-one/description/) | 
-283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法| easy | 2
+283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法| easy | 3
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy|2
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy|2
