@@ -36,3 +36,18 @@ var plusOne = function(digits) {
     digits.unshift(1);
     return digits;
 };
+
+var plusOne = function(digits) {
+    let i = digits.length - 1;
+    let tmp = 1;
+    while(i > -1 && tmp !== 0) {
+        let sum = digits[i] + tmp;
+        digits[i] = sum % 10;
+        tmp = Math.floor(sum / 10);
+        i--;
+    }
+    if(tmp === 1) {
+        digits.unshift(1);
+    }
+    return digits;
+};
