@@ -2,7 +2,6 @@ var maxProfit = function(prices) {
     let minPrice = Number.MAX_VALUE;
     let maxProfit = 0;
     for (let i = 0; i < prices.length; i++) {
-        console.log(minPrice)
         if (prices[i] < minPrice) {
             minPrice = prices[i];
         } else if (prices[i] - minPrice > maxProfit) {
