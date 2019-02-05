@@ -20,3 +20,8 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
+
+
+var containsDuplicate = function(nums) {
+    return (new Set(nums)).size !== nums.length;
+};
