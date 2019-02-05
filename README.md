@@ -189,7 +189,7 @@
 1 [两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用map来记录值和下标之间的对应关系，此处下标数据额外的信息|easy|3
 205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
 599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy|2
-350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|2
+350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|3
 219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)||easy|2
 49 [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/description/)||medium|
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium|2
