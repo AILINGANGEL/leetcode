@@ -24,3 +24,16 @@ var reverse = function(x) {
     }
     return result;
 }
+
+var reverse = function(x) {
+    let isNegative = x < 0;
+    x = Math.abs(x);
+    let num = 0;
+    let limit = Math.pow(2, 31);
+    while(x) {
+        num = num * 10 + x % 10;
+        if(num > limit - 1 || num < -limit) return 0;
+        x = Math.floor(x/10);
+    }
+    return isNegative ? -num : num;
+}
