@@ -19,6 +19,8 @@
 80 [删除排序数组中的重复项2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/)|双指针|medium	
 896 [单调数列](https://leetcode-cn.com/problems/monotonic-array/)||easy
 888 [公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap/description/)|注意公式!!!!!|easy
+220 [存在重复元素3](https://leetcode.com/problems/contains-duplicate-iii/description/)||medium|1
+
 
 ### 栈
 题号           | 解题思路  | 难度| 练习次数
