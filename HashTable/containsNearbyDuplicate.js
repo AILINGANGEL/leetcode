@@ -13,3 +13,19 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return false;
 };
+
+
+var containsNearbyDuplicate = function(nums, k) {
+    let i = 0;
+    while(i < nums.length) {
+        let j = i + 1;
+        while(j <= i + k && j < nums.length ) {
+            if(nums[i] === nums[j]) {
+                return true;
+            }
+            j++;
+        }
+        i++;
+    }
+    return false;
+};
