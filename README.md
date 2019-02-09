@@ -33,7 +33,7 @@
 ------------- | ------------- | ------------- |------------- | 
 387 [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/description/) | |easy | 2
 7 [反转整数](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正 | easy | 2
-242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | |easy
+242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | |easy | 2
 125 [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/description/) |两种方法：1.双指针法 2.字符串反转之后再判断| easy
 8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium
 28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
