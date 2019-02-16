@@ -193,7 +193,7 @@
 205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
 599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy|2
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|3
-219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)|hashtable 循环遍历|easy|3
+219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)|hashtable 循环遍历|easy|4
 49 [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/description/)||medium|
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium|2
 454 [4Sum II](https://leetcode.com/problems/4sum-ii/description/)||medium|1
