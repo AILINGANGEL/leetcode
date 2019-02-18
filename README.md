@@ -19,7 +19,7 @@
 80 [删除排序数组中的重复项2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/description/)|双指针|medium	
 896 [单调数列](https://leetcode-cn.com/problems/monotonic-array/)||easy
 888 [公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap/description/)|注意公式!!!!!|easy
-220 [存在重复元素3](https://leetcode.com/problems/contains-duplicate-iii/description/)||medium|1
+220 [存在重复元素3](https://leetcode.com/problems/contains-duplicate-iii/description/)||medium|2
 680 [验证回文字符串2](https://leetcode.com/problems/valid-palindrome-ii/description/)||easy|1
 
 
@@ -193,7 +193,7 @@
 205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
 599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy|2
 350 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/) | 1.利用js对象 2.排序|3
-219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)|hashtable 循环遍历|easy|3
+219 [存在重复元素2](https://leetcode-cn.com/problems/contains-duplicate-ii/description/)|hashtable 循环遍历|easy|4
 49 [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/description/)||medium|
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium|2
 454 [4Sum II](https://leetcode.com/problems/4sum-ii/description/)||medium|1
