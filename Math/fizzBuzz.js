@@ -57,4 +57,18 @@ var fizzBuzz = function(n) {
     return result;
 }
 
+var fizzBuzz = function(n) {
+    let res = [];
+    for(let i = 1; i<n+1; i++){
+        let tmp = '';
+        if(i%3===0){
+            tmp += 'Fizz';
+        }
+        if(i%5===0){
+            tmp += 'Buzz';
+        }
+        res.push(tmp?tmp:String(i));
+    }
+    return res;
+};
 console.log(fizzBuzz(15))
