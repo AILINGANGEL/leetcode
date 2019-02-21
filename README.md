@@ -210,7 +210,7 @@
 题号           | 解题思路 |  难度 | 练习次数
 ------------- | ------------- | ------------- | ------------- |
 70[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/)|动态规划|easy|2
-121[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)|1.动态规划解法 2.一次遍历解法|easy
+121[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)|1.动态规划解法 2.一次遍历解法|easy|2
 198 [House Robber](https://leetcode.com/problems/house-robber/description/)||easy
 53 [最大子序和](https://leetcode.com/problems/maximum-subarray/description/)||easy|1
 

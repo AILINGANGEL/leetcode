@@ -26,3 +26,15 @@ var maxProfit = function(prices) {
     }
     return profit;
 };
+
+var maxProfit = function(prices) {
+    let arr = [0];
+    let min = prices[0];
+    for (let i = 1; i < prices.length; i++) {
+        arr[i] = Math.max(arr[i - 1], prices[i] - min);
+        if (prices[i] < min) {
+            min = prices[i];
+        }
+    }
+    return arr[arr.length - 1];
+};
