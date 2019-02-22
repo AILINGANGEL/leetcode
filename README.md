@@ -213,6 +213,7 @@
 121[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)|1.动态规划解法 2.一次遍历解法|easy|2
 198 [House Robber](https://leetcode.com/problems/house-robber/description/)||easy
 53 [最大子序和](https://leetcode.com/problems/maximum-subarray/description/)||easy|1
+338 [比特位计数](https://leetcode.com/problems/counting-bits/discuss/79527/Four-lines-C++-time-O(n)-space-O(n))|| medium |1
 
 
 ### 位运算
