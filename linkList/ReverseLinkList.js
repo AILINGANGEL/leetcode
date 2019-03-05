@@ -69,4 +69,38 @@ let test = {
 }
 
 
-console.log(reverseList(test));
+
+// 2019-3-5
+var reverseList = function(head) {
+    if (head === null || head.next === null) return head;
+    let newHead = reverseList(head.next);
+    head.next.next = head;
+    head.next = null;
+    return newHead;
+};
+var reverseList = function(head) {
+    if (head === null || head.next === null) return head;
+    let newHead = reverseList(head.next);
+    head.next.next = head;
+    head.next = null;
+    return newHead;
+};
+
+var reverseList = function(head) {
+    if (head === null || head.next === null) return head;
+    let last = null;
+    let cur = head;
+    while (cur && cur.next) {
+        let nextNext = cur.next.next;
+        let next = cur.next;
+        cur.next.next = cur;
+        cur.next = last;
+        last = next;
+        cur = nextNext;
+    }
+    if (cur) {
+        cur.next = last;
+        last = cur;
+    }
+    return last;
+};
