@@ -75,3 +75,27 @@ var levelOrder = function(root) {
     }
     return res;
 };
+var levelOrder = function(root) {
+    if(root === null) return [];
+    let queue = [root];
+    let levelNodes = [];
+    let curLevel = [];
+    let nextQueue = [];
+    while(queue.length >0){
+        let node = queue.shift();
+        curLevel.push(node.val);
+        if(node.left){
+            nextQueue.push(node.left);
+        }
+        if(node.right){
+            nextQueue.push(node.right);
+        }
+        if(queue.length === 0){
+            levelNodes.push(curLevel);
+            curLevel = [];
+            queue = nextQueue;
+            nextQueue = [];
+        } 
+    }
+    return levelNodes;
+};
