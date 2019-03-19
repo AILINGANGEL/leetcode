@@ -11,7 +11,7 @@
 48[旋转图像](https://leetcode-cn.com/problems/rotate-image/description/) |  | 中等
 35[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)||easy|2
 724[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | |easy|2
-169[求众数](https://leetcode-cn.com/problems/majority-element/description/)|1.map 2.排序 3.Boyer-Moore Voting Algorithm|easy|2
+169[求众数](https://leetcode-cn.com/problems/majority-element/description/)|1.map 2.排序 3.Boyer-Moore Voting Algorithm|easy|3
 229 [求众数2](https://leetcode-cn.com/problems/majority-element-ii/description/)|boyer-Moore 因为要求数字出现的个数大于数组长度的1/3,所以顶多会有两个这样的数，记录每个候选数字的个数，最后再检查候选数字的出现数字是否大于数组长度的1/3| medium
 804 [唯一摩斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/)||easy
 389 [找不同](https://leetcode-cn.com/problems/find-the-difference/)||easy
