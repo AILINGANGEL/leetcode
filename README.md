@@ -87,7 +87,7 @@
 160 [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)|1.暴力法 2.hashset(java, js没有这种数据结构) 3.到达链表结尾的时候交换开始的位置再继续(excellent solution)|easy
 203 [删除链表中的节点](https://leetcode-cn.com/problems/remove-linked-list-elements/description/)|1.一次while循环|easy
 328 [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/description/)||medium
-2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)||easy
+2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)||easy|2
 61 [旋转链表](https://leetcode-cn.com/problems/rotate-list/description/)||medium
 747 [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/description/) ||easy
 83 [删除排序链表的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)||easy|2
