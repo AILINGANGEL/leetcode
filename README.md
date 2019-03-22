@@ -232,3 +232,9 @@
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
 455 [Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|-|easy|1
+
+
+### 设计
+题号           | 解题思路  | 难度| 练习次数
+------------- | ------------- |  ------------- |------------- | 
+155 [最小栈](https://leetcode.com/problems/min-stack/submissions/)|-|easy|1
