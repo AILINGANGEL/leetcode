@@ -198,6 +198,7 @@
 36 [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | 注意判断三个格子 |medium|2
 454 [4Sum II](https://leetcode.com/problems/4sum-ii/description/)||medium|1
 347 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|也可以用堆排序|medium|1
+811 [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)||easy|1
 
 
 ### BackTracking
