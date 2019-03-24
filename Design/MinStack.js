@@ -2,9 +2,8 @@
  * initialize your data structure here.
  */
 var MinStack = function() {
-    this.list1 = []
-    this.list2 = []
-    this.min = Infinity
+    this.arr = [];
+    this.minArr = [];
 };
 
 /** 
@@ -12,38 +11,34 @@ var MinStack = function() {
  * @return {void}
  */
 MinStack.prototype.push = function(x) {
-    this.list1.push(x)
-    if(x < this.min){
-        this.min = x
+    this.arr.push(x);
+    if(this.minArr.length === 0) {
+        this.minArr.push(x);
+    } else {
+        this.minArr.push(Math.min(this.minArr[this.minArr.length - 1], x));
     }
-    this.list2.push(this.min)
 };
 
 /**
  * @return {void}
  */
 MinStack.prototype.pop = function() {
-    this.list1.pop()
-    this.list2.pop()
-    if(this.list1.length===0){
-        this.min = Infinity
-    }else{
-        this.min = this.list2[this.list2.length-1]
-    }
+    this.arr.length--;
+    this.minArr.length--;
 };
 
 /**
  * @return {number}
  */
 MinStack.prototype.top = function() {
-    return this.list1[this.list1.length-1]
+    return this.arr[this.arr.length - 1];
 };
 
 /**
  * @return {number}
  */
 MinStack.prototype.getMin = function() {
-    return this.list2[this.list1.length-1]
+    return this.minArr[this.minArr.length - 1];
 };
 
 /** 

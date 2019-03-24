@@ -50,3 +50,41 @@ var addTwoNumbers = function(l1, l2) {
     }
     return l1;
 };
+
+var addTwoNumbers = function(l1, l2) {
+    if(l1 === null) return l2;
+    if(l2 === null) return l1;
+    let node1 = l1;
+    let node2 = l2;
+    let tmp = 0;
+    let pre = {
+        val: 0,
+        next: node1
+    }
+    while(node1 && node2) {
+        tmp = node1.val + node2.val + tmp;
+        node1.val = tmp % 10;
+        tmp = Math.floor(tmp / 10);
+        node1 = node1.next;
+        node2 = node2.next;
+        pre = pre.next;
+    }
+    if(node1 === null) {
+        pre.next = node2;
+        node1 = pre.next;
+    }
+    while(node1) {
+        tmp = node1.val + tmp;
+        node1.val = tmp % 10;
+        tmp = Math.floor(tmp / 10);
+        node1 = node1.next;
+        pre = pre.next;
+    }
+    if(tmp !== 0) {
+        pre.next = {
+            val: tmp,
+            next: null
+        }
+    }
+    return l1;
+};
