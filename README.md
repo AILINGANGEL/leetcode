@@ -129,7 +129,7 @@
 145 [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)|1.递归 2.循环遍历|hard
 701 [二叉树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/description/)|1.循环遍历 2.递归解法|medium
 405 [删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/description/)|1.循环解法 2.递归解法|medium
-872 [叶子相似树](https://leetcode-cn.com/problems/leaf-similar-trees/description/)|递归|easy
+872 [叶子相似树](https://leetcode-cn.com/problems/leaf-similar-trees/description/)|递归|easy|1
 226 [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/)|递归|easy|2
 703[数据流中第k大个元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|!!!!!!!!!!!!!!(复习)构造一个只包含k个元素的最小堆，那么堆顶就是要求的第k大个元素.|easy
 563 [二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/description/)|递归|easy
