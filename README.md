@@ -142,7 +142,7 @@
 110 [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)|第二次练习采用一次递归的方式完成,但是代码还有可以改进的地方,可以避免使用全局变量|easy|2
 530 [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|1.中序遍历,但是解法不是很好,终于遍历和计算最小绝对差都各自遍历了一次| easy
 637 [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|层次遍历|easy
-897 [递增顺序查找树](https://leetcode-cn.com/problems/increasing-order-search-tree/description/)|中序遍历 !递归解法！！！！！！|easy|2
+897 [递增顺序查找树](https://leetcode-cn.com/problems/increasing-order-search-tree/description/)|中序遍历 !递归解法！！！！！！|easy|3
 606[根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|递归!!!!|easy|1
 669 [修建二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/description/)|递归！！！！！|easy|1
 404 [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)||easy|1

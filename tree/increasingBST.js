@@ -44,7 +44,7 @@ var increasingBST = function(root) {
 };
 
 var inOrder = function(root) {
-    if(root) {
+    if (root) {
         inOrder(root.left);
         root.left = null;
         cur.right = root;
@@ -52,3 +52,32 @@ var inOrder = function(root) {
         inOrder(root.right);
     }
 }
+
+var increasingBST = function(root) {
+    let arrNodes = [];
+    inorderTranverse(arrNodes, root);
+    let newRoot = {
+        val: arrNodes[0],
+        left: null,
+        right: null
+    };
+    let node = newRoot;
+    for (let i = 1; i < arrNodes.length; i++) {
+
+        node.right = {
+            val: arrNodes[i],
+            left: null,
+            right: null
+        }
+        node = node.right;
+    }
+    return newRoot;
+};
+
+var inorderTranverse = function(arr, root) {
+    if (root) {
+        inorderTranverse(arr, root.left);
+        arr.push(root.val);
+        inorderTranverse(arr, root.right);
+    }
+};
