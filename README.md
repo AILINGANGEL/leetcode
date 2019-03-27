@@ -239,3 +239,8 @@
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
 155 [最小栈](https://leetcode.com/problems/min-stack/submissions/)|-|easy|1
+
+### 滑动窗口
+题号           | 解题思路  | 难度| 练习次数
+------------- | ------------- |  ------------- |------------- | 
+3 [无重复字符的最长子串](https://leetcode-cn.com/classic/problems/longest-substring-without-repeating-characters/description/)||medium|1
