@@ -21,6 +21,7 @@
 888 [公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap/description/)|注意公式!!!!!|easy
 220 [存在重复元素3](https://leetcode.com/problems/contains-duplicate-iii/description/)||medium|2
 680 [验证回文字符串2](https://leetcode.com/problems/valid-palindrome-ii/description/)||easy|1
+4 [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)||hard|1
 
 
 ### 栈
