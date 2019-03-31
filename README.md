@@ -85,7 +85,7 @@
 234 [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/)|1.遍历借助数组 2.反转后半部分链表 |easy|2
 707 [设计链表](https://leetcode-cn.com/problems/design-linked-list/description/)|| easy
 141 [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/)|双指针(快指针+慢指针)|easy|2
-160 [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)|1.暴力法 2.hashset(java, js没有这种数据结构) 3.到达链表结尾的时候交换开始的位置再继续(excellent solution)|easy
+160 [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)|1.暴力法 2.hashset(java, js没有这种数据结构) 3.到达链表结尾的时候交换开始的位置再继续(excellent solution) 4.计算两个链表的长度，然后从相同的位置开始|easy|2
 203 [删除链表中的节点](https://leetcode-cn.com/problems/remove-linked-list-elements/description/)|1.一次while循环|easy
 328 [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/description/)||medium
 2 [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)||easy|2
