@@ -44,3 +44,32 @@ var rotateRight = function(head, k) {
     fast.next = head;
     return newhead;
 };
+
+var rotateRight = function(head, k) {
+    if(head === null) return null;
+    let n = 0; // 链表的长度
+    let node = head;
+    while(node) {
+        n++;
+        node = node.next;
+    }
+    k = k % n; //实际上要移动的距离
+    if(k === 0) return head; //如果k=0就返回原链表
+    
+    node = head;
+    let tail = head;
+    let i = 0;
+    while(i < k) {
+        i++;
+        tail = tail.next;
+    }
+    
+    while(tail.next) {
+        node = node.next;
+        tail = tail.next;
+    }
+    let newHead = node.next;
+    node.next = null;
+    tail.next = head;
+    return newHead;
+};
