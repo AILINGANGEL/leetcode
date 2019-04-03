@@ -26,3 +26,41 @@ var getIntersectionNode = function(headA, headB) {
     }
     return a;
 };
+
+var getIntersectionNode = function(headA, headB) {
+    if(headA === null || headB === null) return null;
+    let lenA = 0;
+    let nodeA = headA;
+    while(nodeA) {
+        lenA++;
+        nodeA = nodeA.next;
+    }
+    
+    let lenB = 0;
+    let nodeB = headB;
+    while(nodeB) {
+        lenB++;
+        nodeB = nodeB.next;
+    }
+    
+    nodeA = headA;
+    nodeB = headB;
+    if(lenA > lenB) {
+        for(let i = 0; i < lenA - lenB; i++) {
+            nodeA = nodeA.next;
+        }
+    } else if (lenA < lenB) {
+        for(let i = 0; i < lenB - lenA; i++) {
+            nodeB = nodeB.next;
+        }
+    }
+    
+    while(nodeA && nodeB && nodeA !== nodeB) {
+        nodeA = nodeA.next;
+        nodeB = nodeB.next;
+    }
+    if(nodeA && nodeB) {
+        return nodeA;
+    }
+    return null;
+};
