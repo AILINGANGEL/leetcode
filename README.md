@@ -37,7 +37,7 @@
 7 [反转整数](https://leetcode-cn.com/problems/reverse-integer/description/) | 利用字符串反转, 利用数字除以10取余或者取正 | easy | 2
 242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | |easy | 2
 125 [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/description/) |两种方法：1.双指针法 2.字符串反转之后再判断| easy
-8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium
+8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium|2
 28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
 38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
@@ -173,13 +173,13 @@
 
 
 ### 数学
-题号           | 解题思路 |  难度
-------------- | ------------- | ------------- |
+题号           | 解题思路 |  难度 | 练习次数
+------------- | ------------- | ------------- |------------- |
 412 [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/)|三种解法|easy|2
 204 [计数质数](https://leetcode-cn.com/problems/count-primes/)|O(n)的空间复杂度 O(n)的时间复杂度|easy|2
 326 [3的幂](https://leetcode-cn.com/problems/power-of-three/)|很多种解法!!!!|easy
 263 [丑数](https://leetcode-cn.com/problems/ugly-number/)|递归|easy
-22 [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)||easy
+13 [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)||easy|2
 253 [add digits](https://leetcode.com/problems/add-digits/description/)|1.递归2.公式dr(n) = 1 + (n - 1) % 9|easy
 9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|logn的解法!!!|easy|2
 7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)||easy|1
