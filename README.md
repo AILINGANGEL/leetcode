@@ -38,7 +38,7 @@
 242 [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) | |easy | 2
 125 [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/description/) |两种方法：1.双指针法 2.字符串反转之后再判断| easy
 8 [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/description/) |js中的parseInt| medium|2
-28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)||easy
+28 [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/description/)|kmp算法 和 暴力法|easy|2
 14[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)||easy
 38 [报数](https://leetcode-cn.com/problems/count-and-say/description/)||easy
 67 [二进制求和](https://leetcode-cn.com/problems/add-binary/description/) | |easy
