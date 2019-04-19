@@ -22,6 +22,8 @@
 220 [存在重复元素3](https://leetcode.com/problems/contains-duplicate-iii/description/)||medium|2
 680 [验证回文字符串2](https://leetcode.com/problems/valid-palindrome-ii/description/)||easy|1
 4 [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)||hard|1
+33 [搜索旋转数组](https://leetcode-cn.com/classic/problems/search-in-rotated-sorted-array/description/)||medium|1
+153 [搜索旋转排序数组中的最小值](https://leetcode-cn.com/classic/problems/find-minimum-in-rotated-sorted-array/description/)||medium|1
 
 
 ### 栈
