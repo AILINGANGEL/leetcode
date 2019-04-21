@@ -24,6 +24,7 @@
 4 [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)||hard|1
 33 [搜索旋转数组](https://leetcode-cn.com/classic/problems/search-in-rotated-sorted-array/description/)||medium|1
 153 [搜索旋转排序数组中的最小值](https://leetcode-cn.com/classic/problems/find-minimum-in-rotated-sorted-array/description/)||medium|1
+215 [find Kth largest Element in Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|partition|medium|1
 
 
 ### 栈
