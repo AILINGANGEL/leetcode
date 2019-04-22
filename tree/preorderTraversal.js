@@ -44,3 +44,20 @@ var test = {
 }
 
 console.log(preorderTraversal(test))
+
+var preorderTraversal = function(root) {
+    
+    let ans = [];
+    let stack = [];
+    let node = root;
+    while(node !== null || stack.length > 0) {
+        if(node) {
+            ans.push(node.val);
+            stack.push(node);
+            node = node.left;
+            continue;
+        }
+        node = stack.pop().right;
+    }
+    return ans;
+};

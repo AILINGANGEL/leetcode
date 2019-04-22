@@ -130,7 +130,7 @@
 98 [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/description/)|中序遍历(递归 and 循环遍历)|medium|2
 94 [二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/)|1.递归 2.循环遍历| medium | 3
 700 [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/description/)|1.递归 2.循环遍历| easy
-144 [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)|1.递归 2.循环遍历|medium|2
+144 [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)|1.递归 2.循环遍历|medium|3
 145 [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)|1.递归 2.循环遍历|hard
 701 [二叉树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/description/)|1.循环遍历 2.递归解法|medium
 405 [删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/description/)|1.循环解法 2.递归解法|medium
