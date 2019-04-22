@@ -47,3 +47,24 @@ var inorderTraversal = function(root) {
     }
     return nodes;
 };
+
+
+var inorderTraversal = function(root) {
+    let ans = [];
+    let stack = [];
+    let node = root;
+    while(node !== null || stack.length > 0) {
+        if(node) {
+            stack.push(node);
+            if(node.left) {
+                node = node.left;
+                continue;
+            }
+        }
+       
+        node = stack.pop();
+        ans.push(node.val);
+        node = node.right;
+    }
+    return ans;
+};
