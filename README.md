@@ -193,7 +193,7 @@
 ------------- | ------------- | ------------- |------------- |
 202 [快乐数](https://leetcode-cn.com/problems/happy-number/)|1.当经过平方运算得到的数字已经在hash set中出现过时,有两种可能,如果这个数是1那么就是happy的，如果不是1会依次再循环下去，肯定不是happy的2.利用类似链表里面环的存在与否解法一样,一个快指针一个慢指针|easy|2
 706 [设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/description/)||easy
-349 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/description/)||easy
+349 [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/description/)||easy|2
 1 [两数之和](https://leetcode-cn.com/problems/two-sum/description/) | 利用map来记录值和下标之间的对应关系，此处下标数据额外的信息|easy|3
 205 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/description/)||easy|
 599 [两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/description/)||easy|2
