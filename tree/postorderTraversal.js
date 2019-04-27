@@ -1,17 +1,3 @@
-// var postorderTraversal = function(root) {
-//     let arr = [];
-//     helper(root, arr);
-//     return arr;
-// };
-
-// var helper = function(root, arr) {
-//     if (root) {
-//         helper(root.left, arr);
-//         helper(root.right, arr);
-//         arr.push(root.val);
-//     }
-// }
-
 var postorderTraversal = function(root) {
     if (root === null) return [];
     let arr = [];
@@ -25,6 +11,25 @@ var postorderTraversal = function(root) {
         }
     }
     return arr.reverse();
+};
+
+var postorderTraversal = function(root) {
+    let node = root;
+    let ans = [];
+    let stack = [];
+    while(node || stack.length) {
+        while(node) {
+            ans.push(node.val);
+            stack.push(node);
+            node = node.right;
+        }
+        node = stack.pop().left;
+        while(node === null && stack.length > 0) {
+            node = stack.pop().left;
+        }
+    }
+    ans.reverse();
+    return ans;
 };
 
 var test = {
