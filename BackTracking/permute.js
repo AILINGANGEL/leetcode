@@ -45,5 +45,28 @@ var helper = function(nums, start, permutation, permutations) {
     }
 }
 
+var permute = function(nums) {
+    if (nums.length === 0) return [];
+    return helper(nums, nums.length - 1);
+};
+
+var helper = function(nums, index) {
+    if (index === 0) {
+        return [
+            [nums[0]]
+        ]
+    }
+    let tmp = helper(nums, index - 1);
+    let ans = [];
+    for (let i = 0; i < tmp.length; i++) {
+        for (let j = 0; j < tmp[i].length + 1; j++) {
+            let p = tmp[i].slice();
+            p.splice(j, 0, nums[index])
+            ans.push(p);
+        }
+    }
+    return ans;
+}
+
 var test = [1, 2, 3];
 console.log(permute(test));
