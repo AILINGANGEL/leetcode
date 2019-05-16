@@ -210,6 +210,7 @@
 题号           | 解题思路 |  难度 | 练习次数
 ------------- | ------------- | ------------- |------------- |
 46 [Permutation](https://leetcode.com/problems/permutations/description/)|递归|medium|2
+78 [Subsets](https://leetcode.com/problems/subsets/)|递归|medium|1
 
 
 ### 动态规划
