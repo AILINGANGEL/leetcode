@@ -65,39 +65,3 @@ var minDepth = function(root) {
         return minDepth(root.right) + 1;
     }
 }
-
-
-// var test5 = {
-//     val: 5,
-//     left: null,
-//     right: null
-// }
-
-// var test4 = {
-//     val: 4,
-//     left: null,
-//     right: null
-// }
-
-// var test3 = {
-//     val: 3,
-//     left: null,
-//     right: null
-// }
-
-// var test2 = {
-//     val: 2,
-//     left: test4,
-//     right: test5
-// }
-
-// var test1 = {
-//     val: 1,
-//     left: test2,
-//     right: test3
-// }
-
-
-// console.log(minDepth(test1))
-
-// console.log(minDepth({ val: 1, left: { val: 2, left: { val: 3, left: null, right: null }, right: null }, right: null }));

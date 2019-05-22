@@ -1,15 +1,3 @@
-/**
- * Definition for a binary tree node.
- * function TreeNode(val) {
- *     this.val = val;
- *     this.left = this.right = null;
- * }
- */
-/**
- * @param {TreeNode} root
- * @return {number}
- */
-
 // 解法1
 var findTilt = function(root) {
     if (root === null) return 0;

@@ -1,19 +1,18 @@
 var mySqrt = function(x) {
-    if (x === 0) return 0;
-    let l = 1;
-    let r = x;
+    let i = 0;
+    let j = x;
     while (true) {
-        let mid = Math.floor((l + r) / 2);
-        let temp = mid * mid;
-        if (temp === x) {
+        let mid = Math.floor((i + j) / 2);
+        if (mid * mid === x) {
             return mid;
-        } else if (temp > x) {
-            r = mid;
+        } else if (mid * mid > x) {
+            j = mid - 1;
         } else {
             if ((mid + 1) * (mid + 1) > x) {
                 return mid;
+            } else {
+                i = mid + 1;
             }
-            l = mid;
         }
     }
 };
