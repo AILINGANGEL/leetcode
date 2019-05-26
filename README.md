@@ -27,6 +27,7 @@
 215 [find Kth largest Element in Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|partition|medium|1
 561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
 922 [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)||easy|1
+977 [squares of sorted array](https://leetcode.com/problems/squares-of-a-sorted-array/)||easy
 
 
 ### 栈
