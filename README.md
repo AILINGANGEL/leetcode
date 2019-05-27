@@ -28,6 +28,7 @@
 561 [数组拆分](https://leetcode-cn.com/problems/array-partition-i/description/)||easy
 922 [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)||easy|1
 977 [squares of sorted array](https://leetcode.com/problems/squares-of-a-sorted-array/)||easy
+697 [degree of an array](https://leetcode.com/problems/degree-of-an-array/submissions/)||easy
 
 
 ### 栈
@@ -72,7 +73,7 @@
 ------------- | ------------- | ------------- | -------------|
 209[长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/) | | medium
 485 [最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|两种解法,第二种双指针方法| easy|1
-344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法 | easy|2
+344 [反转字符串](https://leetcode-cn.com/problems/reverse-string/description/) | 三种解法 | easy|3
 167 [两数之和2-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/) || easy
 28 [Remove Element](https://leetcode-cn.com/problems/remove-element/description/) | 双指针法| easy |2
 75 [颜色分类](https://leetcode-cn.com/problems/sort-colors/description/)|双指针|medium
@@ -101,6 +102,7 @@
 876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|3
 445 [两束相加2](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)|利用栈!凡是需要从末尾开始的都考虑需要利用栈!!!!!!|medium|1
 142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|注意推导步骤!!!!|medium|2
+24 [swap nodes in pairs]()||medium|1
 
 
 
