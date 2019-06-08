@@ -119,6 +119,7 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- | 
 622 [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/description/)||medium
+232 [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)||easy|1
 
 
 ### 二叉树
