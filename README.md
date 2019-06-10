@@ -30,6 +30,11 @@
 977 [squares of sorted array](https://leetcode.com/problems/squares-of-a-sorted-array/)||easy
 697 [degree of an array](https://leetcode.com/problems/degree-of-an-array/submissions/)||easy
 
+### 二维数组
+题号           | 解题思路  | 难度| 练习次数
+------------- | ------------- |  ------------- |------------- | 
+240 [搜索二维数组II](https://leetcode.com/problems/search-a-2d-matrix-ii/)||medium|1
+
 
 ### 栈
 题号           | 解题思路  | 难度| 练习次数
@@ -111,7 +116,7 @@
 
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- | 
-88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy
+88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy|2
 
 
 ### 队列
@@ -159,6 +164,7 @@
 543 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)||easy|1
 783 [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)||easy|1
 538 [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)||easy|1
+114 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)||medium|1
 
 
 ### 二分查找
