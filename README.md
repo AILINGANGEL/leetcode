@@ -124,6 +124,7 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- | 
 622 [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/description/)||medium
+232 [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)||easy|1
 
 
 ### 二叉树
@@ -231,6 +232,7 @@
 198 [House Robber](https://leetcode.com/problems/house-robber/description/)||easy
 53 [最大子序和](https://leetcode.com/problems/maximum-subarray/description/)||easy|1
 338 [比特位计数](https://leetcode.com/problems/counting-bits/discuss/79527/Four-lines-C++-time-O(n)-space-O(n))|| medium |1
+118 [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)||easy|1
 
 
 ### 位运算
