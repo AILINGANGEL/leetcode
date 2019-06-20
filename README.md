@@ -160,6 +160,7 @@
 543 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)||easy|1
 783 [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)||easy|1
 538 [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)||easy|1
+938 [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)||easy|1
 
 
 ### 二分查找
