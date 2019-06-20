@@ -1,90 +1,63 @@
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode} l1
- * @param {ListNode} l2
- * @return {ListNode}
- */
 var addTwoNumbers = function(l1, l2) {
-    if (l1 === null) return l2;
-    if (l2 === null) return l1;
     let node1 = l1;
     let node2 = l2;
     let tmp = 0;
-    let pre = {
+    let node = {
         val: 0,
-        next: node1
+        next: null
     }
-    while(node1 && node2) {
-        let sum = node1.val + node2.val;
-        node1.val = (sum + tmp) % 10;
-        tmp = Math.floor((sum + tmp) / 10);
+    let ans = node;
+    while (node1 && node2) {
+        let val = (node1.val + node2.val + tmp) % 10;
+        tmp = Math.floor((node1.val + node2.val + tmp) / 10);
         node1 = node1.next;
         node2 = node2.next;
-        pre = pre.next;
-    }
-    if (node1 === null) {
-        pre.next = node2;
-    }
-    let cur = pre.next;
-    while(cur) {
-        if (tmp) {
-            let sum = cur.val + tmp;
-            tmp = Math.floor(sum / 10);
-            cur.val = sum % 10;
+        node.next = {
+            val: val,
+            next: null
         }
-        if (tmp === 0) break;
-        cur = cur.next;
-        pre = pre.next;
+        node = node.next;
     }
-    if (cur === null && tmp > 0) {
-        pre.next = {
+    while (node2) {
+        let val = (node2.val + tmp) % 10;
+        tmp = Math.floor((node2.val + tmp) / 10);
+        node2 = node2.next;
+        node.next = {
+            val: val,
+            next: null
+        }
+        node = node.next;
+    }
+    while (node1) {
+        let val = (node1.val + tmp) % 10;
+        tmp = Math.floor((node1.val + tmp) / 10);
+        node1 = node1.next;
+        node.next = {
+            val: val,
+            next: null
+        }
+        node = node.next;
+    }
+    if (tmp) {
+        node.next = {
             val: tmp,
             next: null
         }
     }
-    return l1;
+    return ans.next;
 };
 
-var addTwoNumbers = function(l1, l2) {
-    if(l1 === null) return l2;
-    if(l2 === null) return l1;
-    let node1 = l1;
-    let node2 = l2;
-    let tmp = 0;
-    let pre = {
-        val: 0,
-        next: node1
+let l1 = {
+    val: 0,
+    next: null
+}
+
+let l2 = {
+    val: 7,
+    next: {
+        val: 3,
+        next: null
     }
-    while(node1 && node2) {
-        tmp = node1.val + node2.val + tmp;
-        node1.val = tmp % 10;
-        tmp = Math.floor(tmp / 10);
-        node1 = node1.next;
-        node2 = node2.next;
-        pre = pre.next;
-    }
-    if(node1 === null) {
-        pre.next = node2;
-        node1 = pre.next;
-    }
-    while(node1) {
-        tmp = node1.val + tmp;
-        node1.val = tmp % 10;
-        tmp = Math.floor(tmp / 10);
-        node1 = node1.next;
-        pre = pre.next;
-    }
-    if(tmp !== 0) {
-        pre.next = {
-            val: tmp,
-            next: null
-        }
-    }
-    return l1;
-};
+}
+
+console.log(addTwoNumbers(l1, l2));
