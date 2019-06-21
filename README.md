@@ -29,6 +29,7 @@
 922 [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)||easy|1
 977 [squares of sorted array](https://leetcode.com/problems/squares-of-a-sorted-array/)||easy
 697 [degree of an array](https://leetcode.com/problems/degree-of-an-array/submissions/)||easy
+506 [Relative Ranks](https://leetcode.com/problems/relative-ranks/)||easy|1
 
 ### 二维数组
 题号           | 解题思路  | 难度| 练习次数
