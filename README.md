@@ -168,6 +168,7 @@
 538 [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)||easy|1
 938 [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)||easy|1
 114 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)||medium|1
+437 [path sum III](https://leetcode.com/problems/path-sum-iii)||easy|1
 
 
 ### 二分查找
