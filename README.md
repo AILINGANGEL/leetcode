@@ -200,6 +200,7 @@
 253 [add digits](https://leetcode.com/problems/add-digits/description/)|1.递归2.公式dr(n) = 1 + (n - 1) % 9|easy
 9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|logn的解法!!!|easy|2
 7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)||easy|1
+400 [Find Nth Digit](https://leetcode.com/problems/nth-digit/)||easy|1
 
 
 ### HashTable
