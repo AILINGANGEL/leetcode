@@ -20,3 +20,8 @@ var rotate = function(nums, k) {
     }
     nums.splice(length, nums.length - length); //截断不需要的数字
 };
+
+var rotate = function(nums, k) {
+    let tmp = nums.splice(nums.length - k, k);
+    nums.unshift(...tmp)
+};

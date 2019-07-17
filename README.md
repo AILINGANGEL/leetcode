@@ -4,7 +4,7 @@
 26 [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | 双指针解法 | easy| 3
 122 [Best Time to Buy and Sell Stock 2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |xxx | 2
 9 [回文数](https://leetcode-cn.com/problems/palindrome-number/description/) |easy| 2
-189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | 
+189 [旋转数组](https://leetcode-cn.com/submissions/detail/3199872/) | easy| 1
 217 [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/description/) | 暴力法（没写）, 先排序,利用object, 利用set|2
 66 [plus one](https://leetcode.com/problems/plus-one/description/) | |easy|2
 283 [移动0](https://leetcode-cn.com/problems/move-zeroes/description/) | 三种解法| easy | 3
