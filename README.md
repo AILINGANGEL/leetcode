@@ -250,6 +250,7 @@
 213 [Power of Two](https://leetcode.com/problems/power-of-two/description/)|n & n - 1|easy|2
 476 [Number Complement](https://leetcode.com/problems/number-complement/description/)|计算机原码，反码和补码|easy|3
 342 [Power of Four](https://leetcode.com/problems/power-of-four/)|递归，迭代，按位操作|easy
+461 [Hamming Distance](https://leetcode.com/problems/hamming-distance/)||easy|2
 
 
 
