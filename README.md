@@ -119,6 +119,7 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- | 
 88 [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/description/)|| easy|2
+1122 [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)||easy|1
 
 
 ### 队列
