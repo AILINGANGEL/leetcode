@@ -30,6 +30,7 @@
 977 [squares of sorted array](https://leetcode.com/problems/squares-of-a-sorted-array/)||easy
 697 [degree of an array](https://leetcode.com/problems/degree-of-an-array/submissions/)||easy
 506 [Relative Ranks](https://leetcode.com/problems/relative-ranks/)||easy|1
+941 [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)||easy|1
 
 ### 二维数组
 题号           | 解题思路  | 难度| 练习次数
@@ -270,3 +271,9 @@
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
 3 [无重复字符的最长子串](https://leetcode-cn.com/classic/problems/longest-substring-without-repeating-characters/description/)||medium|2
+
+### Depth First Search
+
+题号           | 解题思路  | 难度| 练习次数
+------------- | ------------- |  ------------- |------------- | 
+841 [Keys and Rooms ](https://leetcode.com/problems/keys-and-rooms/)||medium|1
