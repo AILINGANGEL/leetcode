@@ -277,3 +277,4 @@
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
 841 [Keys and Rooms ](https://leetcode.com/problems/keys-and-rooms/)||medium|1
+1026 [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)||medium|1
