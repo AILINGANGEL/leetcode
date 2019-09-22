@@ -267,6 +267,7 @@
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
 155 [最小栈](https://leetcode.com/problems/min-stack/submissions/)|-|easy|1
+295 [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|-|hard|1
 
 ### 滑动窗口
 题号           | 解题思路  | 难度| 练习次数
