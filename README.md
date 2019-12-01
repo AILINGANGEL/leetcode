@@ -73,6 +73,7 @@
 796 [旋转字符串](https://leetcode-cn.com/problems/rotate-string/description/)||easy|1
 891 [Most Common Word](https://leetcode.com/problems/most-common-word/)||easy|1
 1108 [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)||easy|1
+58 [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)||easy|1
 
 
 
