@@ -174,6 +174,7 @@
 938 [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)||easy|1
 114 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)||medium|1
 437 [path sum III](https://leetcode.com/problems/path-sum-iii)||easy|1
+1080 [Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)||medium|1
 
 
 ### 二分查找
