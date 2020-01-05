@@ -31,6 +31,7 @@
 697 [degree of an array](https://leetcode.com/problems/degree-of-an-array/submissions/)||easy
 506 [Relative Ranks](https://leetcode.com/problems/relative-ranks/)||easy|1
 941 [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)||easy|1
+436 [寻找右区间](https://leetcode-cn.com/problems/find-right-interval/submissions/)||medium|1
 
 ### 二维数组
 题号           | 解题思路  | 难度| 练习次数
