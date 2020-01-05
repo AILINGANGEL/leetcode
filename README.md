@@ -32,6 +32,7 @@
 506 [Relative Ranks](https://leetcode.com/problems/relative-ranks/)||easy|1
 941 [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)||easy|1
 436 [寻找右区间](https://leetcode-cn.com/problems/find-right-interval/submissions/)||medium|1
+605 [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)||easy|1
 
 ### 二维数组
 题号           | 解题思路  | 难度| 练习次数
@@ -73,6 +74,7 @@
 796 [旋转字符串](https://leetcode-cn.com/problems/rotate-string/description/)||easy|1
 891 [Most Common Word](https://leetcode.com/problems/most-common-word/)||easy|1
 1108 [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)||easy|1
+58 [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)||easy|1
 
 
 
@@ -173,6 +175,7 @@
 938 [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)||easy|1
 114 [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)||medium|1
 437 [path sum III](https://leetcode.com/problems/path-sum-iii)||easy|1
+1080 [Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)||medium|1
 
 
 ### 二分查找
@@ -268,7 +271,6 @@
 题号           | 解题思路  | 难度| 练习次数
 ------------- | ------------- |  ------------- |------------- | 
 155 [最小栈](https://leetcode.com/problems/min-stack/submissions/)|-|easy|1
-295 [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|-|hard|1
 
 ### 滑动窗口
 题号           | 解题思路  | 难度| 练习次数
