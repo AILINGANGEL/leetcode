@@ -208,7 +208,7 @@
 9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|logn的解法!!!|easy|2
 7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)||easy|1
 400 [Find Nth Digit](https://leetcode.com/problems/nth-digit/)||easy|1
-
+166 [franction to decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/submissions/)||medium | 1
 
 ### HashTable
 题号           | 解题思路 |  难度 | 练习次数
