@@ -194,6 +194,7 @@
 题号           | 解题思路 |  难度
 ------------- | ------------- | ------------- |
 162 [最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)|需要再练习!!!!|easy
+344 [Reverse String](https://leetcode.com/articles/reverse-string/) ||easy
 
 
 ### 数学
