@@ -113,7 +113,7 @@
 876 [链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|用双指针，一个快指针始终已2步跳跃，而慢指针始终一步跳跃,这样快指针到达结尾的时候，慢指针就正好在中间位置|easy|3
 445 [两束相加2](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)|利用栈!凡是需要从末尾开始的都考虑需要利用栈!!!!!!|medium|1
 142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|注意推导步骤!!!!|medium|2
-24 [swap nodes in pairs]()||medium|1
+24 [swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)||medium|1
 
 
 
@@ -195,6 +195,7 @@
 ------------- | ------------- | ------------- |
 162 [最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)|需要再练习!!!!|easy
 344 [Reverse String](https://leetcode.com/articles/reverse-string/) ||easy
+24 [swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)||medium
 
 
 ### 数学
