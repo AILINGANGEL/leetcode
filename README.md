@@ -196,7 +196,7 @@
 162 [最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)|需要再练习!!!!|easy
 344 [Reverse String](https://leetcode.com/articles/reverse-string/) ||easy
 24 [swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)||medium
-
+206[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) || easy
 
 ### 数学
 题号           | 解题思路 |  难度 | 练习次数
