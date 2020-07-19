@@ -240,6 +240,7 @@
 78 [Subsets](https://leetcode.com/problems/subsets/)|递归|medium|1
 51 [N-queens](https://leetcode.com/problems/n-queens/)|回溯|hard|1
 52 [N-queens2](https://leetcode.com/problems/n-queens-ii/)|回溯|hard|1
+37 [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|回溯|hard|1
 
 
 ### 动态规划
