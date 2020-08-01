@@ -242,6 +242,7 @@
 52 [N-queens2](https://leetcode.com/problems/n-queens-ii/)|回溯|hard|1
 37 [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|回溯|hard|1
 784 [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|回溯|easy|1
+77 [combinations](https://leetcode.com/problems/combinations/)||medium|1
 
 
 ### 动态规划
