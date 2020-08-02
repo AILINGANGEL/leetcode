@@ -18,3 +18,23 @@ function helper(nums, index) {
     }
     return ans;
 }
+
+// 回溯
+var subsets = function (nums) {
+    let ans = [];
+    backtrack(nums, [], ans);
+    return ans;
+};
+
+var backtrack = function (nums, subset, subsets) {
+    if (subset.length <= nums.length) {
+        subsets.push(subset.map(item => item.value));
+    }
+    const lastItem = subset[subset.length - 1];
+    const start = lastItem ? lastItem.pos : -1;
+    for (let i = start + 1; i < nums.length; i++) {
+        subset.push({ value: nums[i], pos: i });
+        backtrack(nums, subset, subsets);
+        subset.splice(subset.length - 1);
+    }
+}
