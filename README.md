@@ -243,6 +243,7 @@
 37 [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|回溯|hard|1
 784 [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|回溯|easy|1
 77 [combinations](https://leetcode.com/problems/combinations/)||medium|1
+401 [binary watch](https://leetcode.com/problems/binary-watch/submissions/)||easy|1
 
 
 ### 动态规划
